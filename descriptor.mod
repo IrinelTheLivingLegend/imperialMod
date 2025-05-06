@@ -4,8 +4,7 @@ tags={
 }
 name="Imperial Mod Beta"
 picture="thumbnail.png"
-dependencies={
-	"Force Attack"
-}
 supported_version="1.*"
+replace_path="history/states"
+replace_path="map/strategicregions"
 remote_file_id="3341959036"

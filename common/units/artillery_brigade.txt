@@ -7,19 +7,19 @@ sub_units = {
 		priority = 1198
 		ai_priority = 100
 		active = yes
-		is_artillery_brigade = yes
 		
 		type = {
 			infantry
 			artillery
 		}
 
-		group = combat_support
+		group = infantry
 		
 		categories = {
 			category_army
 			category_line_artillery
 			category_artillery
+			category_r56rp_towed_art
 		}
 
 		combat_width = 2
@@ -83,30 +83,25 @@ sub_units = {
 		priority = 1198
 		ai_priority = 100
 		active = yes
-		is_artillery_brigade = yes
-
+		
 		type = {
 			motorized
 			artillery
 		}
 
-		group = mobile_combat_support
+		group = mobile
 		
 		categories = {
 			category_army
 			category_line_artillery
 			category_artillery
-			category_mobile_and_mobile_combat_sup
+			category_r56rp_towed_art
+			category_r56rp_mobile_all
 		}
 
 		combat_width = 2
 		transport = motorized_equipment
 		manpower = 500
-
-		essential = {
-			motorized_equipment
-		}
-
 		need = {
 			artillery_equipment = 36
 			motorized_equipment = 36
@@ -163,19 +158,19 @@ sub_units = {
 		priority = 1199
 		ai_priority = 100
 		active = yes
-		is_artillery_brigade = yes
 		
 		type = {
 			infantry
 			artillery
 		}
 
-		group = combat_support
+		group = infantry
 		
 		categories = {
 			category_army
 			category_line_artillery
 			category_artillery
+			category_r56rp_towed_rocket
 		}		
 
 		combat_width = 2
@@ -237,19 +232,20 @@ sub_units = {
 		priority = 1199
 		ai_priority = 100
 		active = yes
-		is_artillery_brigade = yes
 		
 		type = {
 			motorized
 			artillery
 		}
 
-		group = mobile_combat_support
+		group = mobile
 		
 		categories = {
 			category_army
 			category_line_artillery
 			category_artillery
+			category_r56rp_towed_rocket
+			category_r56rp_mobile_all
 		}		
 
 		combat_width = 2
@@ -312,7 +308,6 @@ sub_units = {
 		priority = 1199
 		ai_priority = 100
 		active = no
-		is_artillery_brigade = yes
 		
 		type = {
 			artillery
@@ -320,7 +315,7 @@ sub_units = {
 			rocket
 		}
 
-		group = mobile_combat_support
+		group = mobile
 		
 		categories = {
 			category_army
