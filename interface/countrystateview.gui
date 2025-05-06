@@ -10,7 +10,7 @@ guiTypes = {
 			Orientation = "LOWER_LEFT"
 		}	
 	}
-
+	
 	positionType = {
 		name = "countrystateview_weathericons_position"
 		position = { x = 375 y= 25 }
@@ -20,7 +20,7 @@ guiTypes = {
 		name = "countrystateview_weathericons_offset"
 		position = { x = -40 y = 0 }
 	}	
-
+	
 	containerWindowType = {
 		name = "countrystateview"
 		position = { x=-416 y=-549}
@@ -59,8 +59,8 @@ guiTypes = {
 				position = { x = 153 y = 45 }
 				size = { width = 480 height = 105 }
 				format = "UPPER_LEFT"
-				slotsize = { width = 60 height = 52 }
-				max_slots_horizontal = 5
+				slotsize = { width = 50 height = 52 }
+				max_slots_horizontal = 6
 				max_slots_vertical = 1
 			}
 			
@@ -78,12 +78,12 @@ guiTypes = {
 			
 			gridBoxType = {
 				name = "state_shared_slot_building_entries"
-				position = { x = 150 y = 170 }
+				position = { x = 150 y = 172 }
 				size = { width = 480 height = 90%% }
 				format = "UPPER_LEFT"
-				slotsize = { width = 61 height = 50 }
-				max_slots_horizontal = 5
-				max_slots_vertical = 5
+				slotsize = { width = 38 height = 30 }
+				max_slots_horizontal = 8
+				max_slots_vertical = 8
 			}
 
 			iconType ={
@@ -434,7 +434,7 @@ guiTypes = {
 			Orientation = "UPPER_RIGHT"
 		}
 	}
-
+	
 	windowType = {
 		name = "state_stakeholder_entry"
 		position = { x = 0 y = 0}	
@@ -470,7 +470,7 @@ guiTypes = {
 			scale = 0.8
 		}
 	}
-
+	
 	containerWindowType = {
 		name = "state_building_entry"
 		position = { x=0 y=0 }
@@ -479,19 +479,20 @@ guiTypes = {
 		
 		background = {
 			name = "Background"
-			spriteType ="GFX_ww_building_standing_entry_stateview"
+			spriteType = "GFX_building_standing_entry_stateview_inex"
 		}
 		
 		iconType = {
 			name = "level_bg"
-			position = { x=8 y=51 }	
+			position = { x=5 y=53 }	
+			scale = 0.833
 			spriteType = "GFX_generic_text_bg_48"
 		}
 		
 		instantTextboxType = {
 			name = "level"
-			position = { x = 5 y = 54 }
-			font = "hoi_20b"
+			position = { x = -5 y = 54 }
+			font = "hoi_18b"
 			maxWidth = 60
 			maxHeight = 20
 			format = center
@@ -500,18 +501,19 @@ guiTypes = {
 		
 		buttonType = {
 			name = "building_picture"
-			position = { x = 12 y = 5 }
+			position = { x = 12 y = 13 }
+			scale = 0.735
 			quadTextureSprite ="GFX_buildings_strip"
 		}
 		
 		iconType = {
 			name = "damage_bar"
-			spriteType = "GFX_damage_bar"
-			position = { x=10 y=41 }
+			spriteType = "GFX_damage_bar_inex_state"
+			position = { x=9 y=40 }
 			rotation = 1.5708		
 		}	
 	}
-
+	
 	containerWindowType = {
 		name = "state_shared_slot_building_entry"
 		position = { x=4 y=-15 }
@@ -520,38 +522,43 @@ guiTypes = {
 
 		iconType = {
 			name = "build_slot_bg"
-			position = { x=0 y=0 }	
+			position = { x=0 y=0 }
+			scale = 0.625	
 			spriteType = "GFX_build_slot_bg"
 			alwaystransparent = yes
 		}
 		
 		buttonType = {
 			name = "building_picture"
-			position = { x = 10 y = 0 }
+			position = { x = 8 y = 0 }
+			scale = 0.625
 			quadTextureSprite = "GFX_buildings_strip"
 		}
 		
 		iconType = {
 			name = "building_status_overlay"
 			position = { x = 10 y = 0 }
+			scale = 0.625
 			quadTextureSprite = "GFX_building_status_overlay"
 			alwaystransparent = yes
 		}
 		
 		buttonType = {
 			name = "remove"
-			position = { x = 40 y = 29 }
+			position = { x = 23 y = 2 }
+			scale = 0.625
 			spriteType = "GFX_cancel_conversion_button"
 		}
 		
 		iconType = {
 			name = "damage_bar"
-			spriteType = "GFX_damage_bar"
-			position = { x=7 y=36 }
+			spriteType = "GFX_damage_bar_inex_shared"
+			position = { x=6 y=20 }
+			scale = 0.625
 			rotation = 1.5708		
 		}	
 	}
-
+	
 	containerWindowType = {
 		name = "province_building_entry"
 		position = { x=0 y=0 }
@@ -614,17 +621,17 @@ guiTypes = {
 		buttonType = {
 			name = "building_button"
 			quadTextureSprite = "GFX_placeholder_bg"
-			position = { x = 13 y = 6 }
+			position = { x = 14 y = 7 }
 			scale = 1.0
 		}
-
+		
 		iconType = {
 			name = "damage_bar"
 			spriteType = "GFX_province_landmark_damage_bar"
 			position = { x=6 y=8  }
 		}
 	}
-
+	
 	containerWindowType = {
 		name = "state_resource_entry"
 		position = { x=0 y=0 }
@@ -647,8 +654,8 @@ guiTypes = {
 			format = center
 		}
 	}
-
-
+	
+	
 	containerWindowType = {
 		name = "state_compliance_status_container"
 		position = { x = 300 y = 40 }	
@@ -705,10 +712,11 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 	}
-
+	
 	containerWindowType = {
 		name = "state_view_dynamic_modifier_entry"
 		size = { width = 40 height = 47 }
+		position = { x = 0 y = -4 }
 		clipping = no
 		
 		iconType = {
