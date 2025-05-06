@@ -2,7 +2,7 @@ version="2.0"
 tags={
 	"Fixes"
 }
-name="Imperial Mod Beta"
+name="Imperial Mod"
 picture="thumbnail.png"
 supported_version="1.*"
 replace_path="history/states"
