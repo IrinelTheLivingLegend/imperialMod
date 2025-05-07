@@ -14815,6 +14815,10 @@ IF = {
 		}
 
 		completion_reward = {
+			set_technology = {
+				winter_logistics_support = 1
+			}
+
 			every_other_country = {
 				limit = {
 					exists = yes

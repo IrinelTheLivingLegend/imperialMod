@@ -85,9 +85,9 @@ technologies = {
 		rangers_support = {
 			acclimatization_cold_climate_gain_factor = 0.25
 			snow = {
-				attack = 0.10
+				attack = 0.15
 				defence = 0.15
-				movement = 0.15
+				movement = 0.25
 			}
 		}
 		
@@ -267,8 +267,12 @@ technologies = {
 		artillery = {
 			battalion_mult = {
 				category = category_mountaineers
-				breakthrough = 0.15
+				breakthrough = 0.25
 			}
+		}
+
+		artillery_brigade = {
+			soft_attack = 0.2
 		}
 		
 		xor = { mountaineers_combat_1 }

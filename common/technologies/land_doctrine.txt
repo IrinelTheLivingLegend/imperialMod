@@ -1599,7 +1599,7 @@ technologies = {
 	
 	forward_observers = {
 
-		land_reinforce_rate = 0.02
+		land_reinforce_rate = 0.3
 		xp_research_type = army
 		xp_unlock_cost = 100
 		category_recon = {
@@ -1780,11 +1780,7 @@ technologies = {
 		
 		xor = { mobile_warfare superior_firepower mass_assault } 
 		
-		category_cavalry = {
-			supply_consumption = -0.02
-		}
-		
-		max_dig_in = 10
+		max_dig_in = 5
 		dig_in_speed_factor = 0.25 #25% bonus
 		
 		
@@ -1833,7 +1829,7 @@ technologies = {
 		}
 		
 		#planning max bonus increase
-		max_planning = 0.1
+		max_planning = 0.05
 		command_power_gain = 0.25
 
 		doctrine = yes	
@@ -2040,7 +2036,7 @@ technologies = {
 	assault_concentration = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-		max_planning = 0.1
+		max_planning = 0.15
 
 		enable_tactic = tactic_overwhelming_fire
 		
@@ -2204,7 +2200,7 @@ technologies = {
 	central_planning = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-		max_planning = 0.1
+		max_planning = 0.15
 		max_command_power = 30
 		
 		logistics_company = {
@@ -2548,6 +2544,9 @@ technologies = {
 	attritional_containment = {
 		xp_research_type = army
 		xp_unlock_cost = 100
+
+		max_dig_in = 5
+
 		category_all_infantry = {
 			max_organisation = 5
 		}
@@ -3282,8 +3281,8 @@ technologies = {
 	human_infantry_offensive = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-		category_light_infantry = {
-			default_morale = 0.30
+		category_army = {
+			default_morale = 0.2
 		}
 		land_reinforce_rate = 0.05		
 		
