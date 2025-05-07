@@ -747,10 +747,15 @@ focus_tree = {
                         militia = { x = 0 y = 0 }
                         militia = { x = 0 y = 1 }
                         militia = { x = 0 y = 2 }
+                        militia = { x = 0 y = 3 }
+                        militia = { x = 1 y = 0 }
+                        militia = { x = 1 y = 1 }
+                        militia = { x = 1 y = 2 }
                         
                     }
                     support = {
-                        
+                        engineer = { x = 0 y = 0 }
+                        artillery = { x = 0 y = 1 }
                     }
                 }
                 division_template = {
@@ -768,31 +773,36 @@ focus_tree = {
                         mountaineers = { x = 1 y = 1 }
                         mountaineers = { x = 1 y = 2 }
                         mountaineers = { x = 1 y = 3 }
+                        artillery_brigade = { x = 2 y = 0 }
+                        artillery_brigade = { x = 2 y = 1 }
+                        artillery_brigade = { x = 2 y = 2 }
+                        
                     }
                     support = {
                         engineer = { x = 0 y = 0 }
+                        artillery = { x = 0 y = 1 }
                     }
                 }
 				988 = {
                     create_unit = {
-                        division = "name = \"Princely Personal Guard\" division_template = \"Princely Personal Guard\" start_experience_factor = 0.05 start_equipment_factor = 0.95 start_manpower_factor = 1"
+                        division = "name = \"Princely Personal Guard\" division_template = \"Princely Personal Guard\" start_experience_factor = 0.05 start_equipment_factor = 1 start_manpower_factor = 1"
                         owner = RAJ
                         allow_spawning_on_enemy_provs = no 
-                        count = 5 
+                        count = 10
                     }
                     create_unit = {
-                        division = "name = \"Ahadi Division\" division_template = \"Ahadi Division\" start_experience_factor = 0.5 start_equipment_factor = 1 start_manpower_factor = 1"
+                        division = "name = \"Ahadi Division\" division_template = \"Ahadi Division\" start_experience_factor = 1.0 start_equipment_factor = 1 start_manpower_factor = 1"
                         owner = ROOT
                         allow_spawning_on_enemy_provs = no 
-                        count = 4
+                        count = 8
                     }
 				}
                 445 = {
                     create_unit = {
-                        division = "name = \"Princely Personal Guard\" division_template = \"Princely Personal Guard\" start_experience_factor = 0.05 start_equipment_factor = 0.95 start_manpower_factor = 1"
+                        division = "name = \"Princely Personal Guard\" division_template = \"Princely Personal Guard\" start_experience_factor = 0.05 start_equipment_factor = 1 start_manpower_factor = 1"
                         owner = RAJ
                         allow_spawning_on_enemy_provs = no 
-                        count = 3 
+                        count = 6
                     }
                 }
 
