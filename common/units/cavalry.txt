@@ -26,6 +26,7 @@ sub_units = {
 
 		
 		combat_width = 2
+        initiative = 0.005
 		
 		#Size Definitions
 		max_organisation = 70
@@ -94,6 +95,7 @@ sub_units = {
 		}
 		
 		combat_width = 2
+        initiative = 0.005
 		
 		#Size Definitions
 		max_organisation = 70
@@ -178,6 +180,7 @@ sub_units = {
 		}
 		
 		combat_width = 2
+        initiative = 0.005
 		
 		#Size Definitions
 		max_organisation = 55

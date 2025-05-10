@@ -14815,10 +14815,12 @@ IF = {
 		}
 
 		completion_reward = {
-			set_technology = {
-				winter_logistics_support = 1
+			hidden_effect = {
+				set_technology = {
+					winter_logistics_support_tech = 1
+					popup = no
+				}
 			}
-
 			every_other_country = {
 				limit = {
 					exists = yes

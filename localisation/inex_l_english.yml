@@ -45,6 +45,12 @@
  OPTION_RESOURCE_EXPANSION_ENABLED_DESC: "Resource Expansions will be available for research."
  OPTION_RESOURCE_EXPANSION_DISABLED: "Disabled"
  OPTION_RESOURCE_EXPANSION_DISABLED_DESC: "Resource Expansions will not be available for research."
- 
- 
- 
+
+ bullshit_tt: "Gain Base Stability: §R-7.50%§!\nGain Base War Support: §R-7.50%§!"
+ bullshit2_tt: "£reinforce_texticon Reinforce rate: §G+2.0%§!"
+inf_discount_tt:0 "Required Infantry Equipment: §G-10§!"
+arty_discount_tt:0 "Required Artillery Equipment: §G-6§!"
+division_limiter_tt:0 "Division Limiter"
+division_limiter_tt_desc:0 "Maximum number of divisions: §Y500§!\nIf you surpass this number, your army will not enter battles."
+division_limiter:0 "Division Limiter"
+division_limiter_desc:0 "Maximum number of divisions: §Y500§!\nIf you surpass this number, your army will not enter battles."

@@ -1,0 +1,277 @@
+#AXIS
+assia_axis_nations = {
+    and = {
+        or = {
+            tag = ger
+            tag = ita
+            tag = jap
+            is_in_faction_with  = ger
+            is_in_faction_with = ita
+            is_in_faction_with  = jap
+        }
+        not.is_in_faction_with = {
+            or = {
+                tag = eng
+                tag = usa
+                tag = sov
+                tag = fra
+            }
+        }
+    }
+    
+}
+
+assia_japan_islands = {
+	or = {
+	state = 524
+        state = 526
+        state = 645
+        state = 648
+        state = 646
+        state = 647
+        state = 684
+        state = 633
+        state = 289
+        state = 555
+        state = 587
+	}
+}
+
+assia_koreea = {
+	or = {
+        state = 920
+        state = 917
+        state = 919
+        state = 525
+        state = 527
+        state = 918
+	}
+}
+
+assia_china = {
+	or = {
+		state = 608
+        state = 745
+        state = 743
+        state = 613
+        state = 597
+        state = 596
+        state = 595
+        state = 593
+        state = 729
+        state = 592
+        state = 594
+        state = 591
+        state = 599
+        state = 325
+        state = 747
+        state = 600
+        state = 602
+        state = 620
+        state = 749
+        state = 606
+        state = 598
+        state = 607
+        state = 614
+        state = 609
+        state = 610
+        state = 947
+        state = 716
+        state = 941
+        state = 328
+	}
+}
+
+assia_thailand = {
+	or = {
+		state = 724
+        state = 289
+        state = 869
+        state = 868
+	}
+}
+
+#ALLIES
+assia_allied_nations = {
+    and = {
+        or = {
+            tag = eng
+            tag = usa
+            tag = sov
+            tag = fra
+            is_in_faction_with  = eng
+            is_in_faction_with = usa
+            is_in_faction_with  = sov
+            is_in_faction_with = fra 
+        }
+        not.is_in_faction_with = {
+            or = {
+                tag = ger
+                tag = ita
+                tag = jap
+            }
+        }
+    }
+
+}
+assia_indochina = {
+	or = {
+		state = 671
+        state = 928
+        state = 927
+        state = 670
+        state = 741
+        state = 925
+        state = 286
+	}
+}
+
+assia_malaezia = {
+	or = {
+		state = 336
+        state = 915
+        state = 1014
+        state = 333
+        state = 916
+        state = 951
+        state = 960
+        state = 914
+	}
+}
+
+assia_philipines = {
+	or = {
+		state = 623
+        state = 327
+        state = 624
+        state = 625
+        state = 628
+        state = 627
+        state = 626
+	}
+}
+
+assia_indonesia = {
+	or = {
+		state = 334
+        state = 977
+        state = 978
+        state = 974
+        state = 672
+        state = 335
+        state = 976
+        state = 446
+        state = 667
+        state = 673
+        state = 975
+        state = 668
+        state = 738
+        state = 669
+	}	
+}
+
+assia_burma = {
+	or = {
+		state = 1020
+        state = 288
+        state = 640
+        state = 1019
+	}
+}
+
+assia_india = {
+	or = {
+        state = 434
+        state = 432
+        state = 430
+        state = 431
+        state = 1092
+        state = 1013
+        state = 435
+        state = 426
+        state = 436
+        state = 438
+        state = 437
+        state = 429
+        state = 427
+        state = 424
+        state = 423
+        state = 425
+        state = 428
+        state = 433
+        state = 1090
+        state = 439
+        state = 443
+        state = 440
+        state = 441
+        state = 787
+        state = 1062
+        state = 444
+        state = 445
+        state = 442
+	}
+}
+
+assia_australia = {
+	or = {
+        state = 522
+        state = 871
+        state = 870
+        state = 519
+        state = 520
+        state = 872
+        state = 517
+        state = 521
+        state = 873
+        state = 285
+        state = 518
+        state = 1096
+        state = 523
+        state = 737
+        state = 634
+	}
+}
+
+assia_new_zeeland = {
+	or = {
+		state = 723
+		state = 284
+	}
+}
+
+assia_france = {
+	or = {
+		state = 635
+        state = 320
+        state = 728
+	}
+}
+
+assia_usa = {
+	or = {
+		state = 638
+        state = 632
+        state = 631
+        state = 630
+        state = 629
+        state = 727
+        state = 642
+        state = 726
+        state = 1089
+        state = 734
+        state = 641
+	}
+}
+
+assia_uk = {
+	    state = 639
+        state = 643
+        state = 636
+        state = 711
+        state = 712
+        state = 710
+        state = 281
+        state = 422
+        state = 733
+        state = 326
+}

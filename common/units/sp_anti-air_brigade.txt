@@ -22,6 +22,7 @@ sub_units = {
 		}
 
 		combat_width = 2
+        initiative = 0.005
 
 		need = {
 			light_tank_aa_chassis = 36
@@ -89,6 +90,7 @@ sub_units = {
 		}
 
 		combat_width = 2
+        initiative = 0.005
 
 		need = {
 			medium_tank_aa_chassis = 36
@@ -160,6 +162,7 @@ sub_units = {
 		}
 
 		combat_width = 2
+        initiative = 0.005
 
 		need = {
 			heavy_tank_aa_chassis = 36
@@ -228,6 +231,7 @@ sub_units = {
 		}
 
 		combat_width = 2
+        initiative = 0.005
 
 		need = {
 			super_heavy_tank_aa_chassis = 36
@@ -298,6 +302,7 @@ sub_units = {
 		}
 
 		combat_width = 2
+        initiative = 0.005
 
 		need = {
 			modern_tank_aa_chassis = 36

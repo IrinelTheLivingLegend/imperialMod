@@ -4,7 +4,7 @@ tags={
 }
 name="Imperial Mod"
 picture="thumbnail.png"
-supported_version="1.*"
 replace_path="history/states"
 replace_path="map/strategicregions"
+supported_version="1.*"
 remote_file_id="3341959036"

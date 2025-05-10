@@ -23,25 +23,26 @@ sub_units = {
 		}
 
 		combat_width = 2
+        initiative = 0.005
 
 		manpower = 500
 		need = {
 			artillery_equipment = 36
 		}
 		
-		max_strength = 0.6
+		max_strength = 2
 		max_organisation = 0
-		default_morale = 0.1
+		default_morale = 0.2
 		training_time = 120
 		weight = 0.5
-		supply_consumption = 0.21
+		supply_consumption = 0.18
 
 		#Line artillery bonuses
 		# soft_attack = 0.25
 		
 		forest = {
-			attack = -0.2
-			movement = -0.2
+			attack = -0.15
+			movement = -0.15
 		}
 
 		hills = {
@@ -49,26 +50,21 @@ sub_units = {
 		}
 
 		mountain = {
-			movement = -0.2
+			movement = -0.15
 		}
 
 		jungle = {
-			attack = -0.25
-			movement = -0.2
+			attack = -0.15
+			movement = -0.15
 		}
 
 		marsh = {
-			attack = -0.2
-			movement = -0.3
+			attack = -0.15
+			movement = -0.2
 		}
 
 		fort = {
-			attack = 0.1
-		}
-
-		river = {
-			attack = -0.2
-			movement = -0.2
+			attack = 0.3
 		}
 
 		amphibious = {
@@ -100,6 +96,7 @@ sub_units = {
 		}
 
 		combat_width = 2
+        initiative = 0.005
 		transport = motorized_equipment
 		manpower = 500
 
@@ -179,6 +176,7 @@ sub_units = {
 		}		
 
 		combat_width = 2
+        initiative = 0.005
 
 		need = {
 			rocket_artillery_equipment = 36
@@ -186,16 +184,16 @@ sub_units = {
 		
 		manpower = 500
 		max_organisation = 0
-		default_morale = 0.1
-		max_strength = 0.6
+		default_morale = 0.2
+		max_strength = 2
 		training_time = 120
 		weight = 0.5
 
-		supply_consumption = 0.22
+		supply_consumption = 0.18
 		
 		forest = {
 			attack = -0.2
-			movement = -0.2
+			movement = -0.5
 		}
 
 		hills = {
@@ -208,7 +206,7 @@ sub_units = {
 
 		jungle = {
 			attack = -0.25
-			movement = -0.2
+			movement = -0.5
 		}
 
 		marsh = {
@@ -253,6 +251,7 @@ sub_units = {
 		}		
 
 		combat_width = 2
+        initiative = 0.005
 		transport = motorized_equipment
 		need = {
 			rocket_artillery_equipment = 36
@@ -329,6 +328,7 @@ sub_units = {
 		}		
 
 		combat_width = 2
+        initiative = 0.005
 
 		need = {
 			motorized_rocket_equipment = 20

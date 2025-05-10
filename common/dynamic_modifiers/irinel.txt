@@ -1,0 +1,23 @@
+division_limiter = {
+	name = division_limiter_tt
+	icon = GFX_idea_FRA_matignon_agreements
+
+	enable = { always = yes }
+	land_reinforce_rate = reinforce_rate_debuff
+}
+
+assia_system_axis = {
+	name = division_limiter_tt
+	icon = GFX_idea_FRA_matignon_agreements
+	enable = { always = yes }
+
+	industrial_capacity_factory = assia_axis_factory_output
+}
+
+assia_system_allies = {
+	name = division_limiter_tt
+	icon = GFX_idea_FRA_matignon_agreements
+	enable = { always = yes }
+
+	industrial_capacity_factory = assia_allies_factory_output
+}

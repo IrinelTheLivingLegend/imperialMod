@@ -1,0 +1,150 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            every_country = {
+                set_variable = { assia_axis_factory_output = 0 }
+                set_variable = { assia_allies_factory_output = 0 }
+                add_dynamic_modifier = {
+    			modifier = division_limiter
+    			scope = root
+    		}
+                set_technology = {
+                    popup = no
+                    infantry_weapons = 1
+                    infantry_weapons1 = 1
+                    tech_support = 1
+                    tech_engineers = 1
+                    motorised_infantry = 1
+                    tech_trucks = 1
+                    gw_artillery = 1
+                    interwar_antiair = 1
+                    basic_train = 1
+                    interwar_antitank = 1
+                    gwtank_chassis = 1
+                    basic_light_tank_chassis = 1
+                    basic_heavy_tank_chassis = 1
+                    iw_small_airframe = 1
+                    basic_small_airframe = 1
+                    aa_lmg = 1
+                    engines_1 = 1
+                    engines_2 = 1
+                }
+                add_equipment_to_stockpile = {
+                    type = train_equipment_1
+                    amount = 20
+                }
+                add_equipment_to_stockpile = {
+                    type = motorized_equipment_0
+                    amount = 300
+                }
+            }
+        }
+    }
+
+    on_weekly  = {
+        effect  = {
+            every_country = {
+                    limit = {
+                        not = {
+                            has_country_flag = debuff_applied
+                        }
+                        num_divisions > 500
+                    }
+                    set_variable = { reinforce_rate_debuff = -1.0 }
+                    set_country_flag = debuff_applied     
+            }
+            every_country = {
+                limit = {
+                    has_country_flag = debuff_applied
+                    num_divisions < 500
+                }
+                set_variable = { reinforce_rate_debuff = 0 }
+                clr_country_flag = debuff_applied
+            }
+        }
+    }
+
+    on_monthly = {
+        effect = {
+            if = {
+                limit = {
+                    JAP = {
+                        has_war_with = {
+                            or = {
+                                tag = eng
+                                tag = usa
+                                tag = sov
+                                tag = fra
+                                is_in_faction_with  = eng
+                                is_in_faction_with = usa
+                                is_in_faction_with  = sov
+                                is_in_faction_with = fra 
+                            }
+                        }
+                    }
+                }
+                every_contry = {
+                limit = {
+                    assia_axis_nations = yes
+                }
+                add_dynamic_modifier = assia_system_axis
+                set_country_flag = assia_system_flag
+            }
+            every_contry = {
+                limit = {
+                    assia_allied_nations = yes
+                }
+                add_dynamic_modifier = assia_system_allies
+                set_country_flag = assia_system_flag
+            }
+            every_contry = {
+                limit = {
+                    and = {
+                        has_country_flag = assia_system_flag
+                        not = {
+                            or = {
+                                assia_axis_nations = yes
+                                assia_allied_nations = yes
+                            }
+                        }
+                    }
+                }
+                remove_dynamic_modifier  = assia_system
+                clr_country_flag = assia_system_flag
+            }
+            }
+        }
+    }
+
+    on_state_control_changed {
+        effect = {
+            if = {
+                limit = {
+                    from = {
+                        assia_axis_nations = yes
+                    }
+                    from.from = {
+                        assia_japan_islands = yes
+                    }
+                }
+                subtract_from_variable = {
+                    assia_axis_factory_output = 0.016
+                }
+            }
+            if = {
+                limit = {
+                    root = {
+                        assia_axis_nations = yes
+                    }
+                    from.from = {
+                        assia_japan_islands = yes
+                    }
+                }
+                add_to_variable = {
+                    assia_axis_factory_output = 0.016
+                }
+            }
+            
+        }
+    }
+}

@@ -818,8 +818,8 @@ ideas = {
 			modifier = {
 				tactic_elastic_defense_preferred_weight_factor = 1
 				tactic_overwhelming_fire_preferred_weight_factor = 1
-				max_dig_in_factor = 0.1
-				dig_in_speed_factor = 0.25
+				max_dig_in_factor = 0.05
+				dig_in_speed_factor = 0.5
 			}
 			ai_will_do = {
 				factor = 1
@@ -1033,7 +1033,7 @@ ideas = {
 			visible = {
 				OR = {
 					has_country_flag = autorize_operational_reserve_spirit
-					has_tech = mass_assault
+					has_tech = large_front_operations
 				} 
 			}
 			modifier = {
