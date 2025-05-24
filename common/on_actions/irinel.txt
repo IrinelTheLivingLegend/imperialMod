@@ -1,6 +1,173 @@
 on_actions = {
     on_startup = {
         effect = {
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = rule_starting_map
+                        option = OPTIMIZED_MAP
+                    }
+                }
+                NOO = {
+                    annex_country = {target = ELS}
+                    annex_country = {target = HON}
+                    annex_country = {target = GUA}
+                    annex_country = {target = COS}
+                    annex_country = {target = PAN}
+                    annex_country = {target = COL}
+                    annex_country = {target = VEN}
+                    annex_country = {target = CUB}
+                    annex_country = {target = DOM}
+                    annex_country = {target = HAI}
+                    annex_country = {target = PRU}
+                    annex_country = {target = ECU}
+                    annex_country = {target = BOL}
+                    annex_country = {target = PAR}
+                    annex_country = {target = ARG}
+                    annex_country = {target = CHL}
+                    annex_country = {target = URG}
+                    annex_country = {target = YEM}
+                    annex_country = {target = SAU}
+                    annex_country = {target = TUR}
+                    annex_country = {target = AFG}
+                    annex_country = {target = NEP}
+                    annex_country = {target = BHU}
+                    annex_country = {target = IRE}
+                    annex_country = {target = NIC}
+                    annex_country = {target = LIB}
+                    every_state = {
+                        limit = {
+                            is_owned_and_controlled_by = NOO
+                        }
+                        add_core_of = NOO
+                    }
+                }
+                ENG = {
+                    annex_country = {target = OMA}
+                    annex_country = {target = KUW}
+                    annex_country = {target = IRQ}
+                    annex_country = {target = PAL}
+                    annex_country = {target = JOR}
+                    annex_country = {target = MAL}
+                }
+                FRA = {
+                    annex_country = {target = LEB}
+                    annex_country = {target = SYR}
+                    annex_country = {target = FRI}
+                }
+                MAN = {annex_country = {target = MEN}}
+                USA = {annex_country = {target = PHI}}
+                ITA = {annex_country = {target = ETH}}
+                MON = {annex_country = {target = TAN}}
+                RAJ = {annex_country = {target = BRM}}
+                BEL = {annex_country = {target = COG}}
+                HOL = {
+                    remove_ideas = HOL_curtail_colonial_autonomy_overlord
+                    INS = {
+                        every_unit_leader = {
+                            set_nationality = HOL
+                        }
+                    }
+                    annex_country = {
+                        target = INS
+                        transfer_troops = yes
+                    }
+                    every_state = {
+                        limit = {
+                            is_core_of = INS
+                        }
+                        add_compliance = 70
+                    }
+                }
+            }
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = rule_starting_map
+                        option = NO_ASIA_MAP
+                    }
+                }
+                NOO = {
+                    annex_country = {target = ELS}
+                    annex_country = {target = HON}
+                    annex_country = {target = GUA}
+                    annex_country = {target = COS}
+                    annex_country = {target = PAN}
+                    annex_country = {target = COL}
+                    annex_country = {target = VEN}
+                    annex_country = {target = CUB}
+                    annex_country = {target = DOM}
+                    annex_country = {target = HAI}
+                    annex_country = {target = PRU}
+                    annex_country = {target = ECU}
+                    annex_country = {target = BOL}
+                    annex_country = {target = PAR}
+                    annex_country = {target = ARG}
+                    annex_country = {target = CHL}
+                    annex_country = {target = URG}
+                    annex_country = {target = YEM}
+                    annex_country = {target = SAU}
+                    annex_country = {target = TUR}
+                    annex_country = {target = AFG}
+                    annex_country = {target = NEP}
+                    annex_country = {target = BHU}
+                    annex_country = {target = IRE}
+                    annex_country = {target = NIC}
+                    annex_country = {target = USA}
+                    annex_country = {target = JAP}
+                    annex_country = {target = MAN}
+                    annex_country = {target = MEN}
+                    annex_country = {target = CHI}
+                    annex_country = {target = SIA}
+                    annex_country = {target = BRA}
+                    annex_country = {target = MEX}
+                    annex_country = {target = PHI}
+                    annex_country = {target = LIB}
+                    every_state = {
+                        limit = {
+                            is_owned_and_controlled_by = NOO
+                        }
+                        add_core_of = NOO
+                    }
+                }
+                ENG = {
+                    annex_country = {target = OMA}
+                    annex_country = {target = KUW}
+                    annex_country = {target = IRQ}
+                    annex_country = {target = PAL}
+                    annex_country = {target = JOR}
+                    annex_country = {target = MAL}
+                }
+                FRA = {
+                    annex_country = {target = LEB}
+                    annex_country = {target = SYR}
+                    annex_country = {target = FRI}
+                }
+                ITA = {annex_country = {target = ETH}}
+                MON = {annex_country = {target = TAN}}
+                RAJ = {annex_country = {target = BRM}}
+                BEL = {annex_country = {target = COG}}
+                HOL = {
+                    remove_ideas = HOL_curtail_colonial_autonomy_overlord
+                    INS = {
+                        every_unit_leader = {
+                            set_nationality = HOL
+                        }
+                    }
+                    annex_country = {
+                        target = INS
+                        transfer_troops = yes
+                    }
+                    every_state = {
+                        limit = {
+                            is_core_of = INS
+                        }
+                        add_compliance = 70
+                    }
+                }
+            }
+
+
             every_country = {
                 set_variable = { assia_axis_factory_output = 0 }
                 set_variable = { assia_allies_factory_output = 0 }

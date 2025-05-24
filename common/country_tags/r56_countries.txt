@@ -87,3 +87,5 @@ MET = "countries/Metis Federation.txt"
 ACN = "countries/Arctic Republic.txt"
 LOI = "countries/Lordship of the Isles.txt"
 #####-----> End <><> <><> <><> <><> <><>
+
+NOO = "countries/Nobody.txt"

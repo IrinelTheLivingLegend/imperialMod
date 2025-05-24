@@ -1,0 +1,19 @@
+rule_starting_map = {
+	name = RULE_STARTING_MAP
+	group = "RULE_GROUP_IRINEL_MISC_RULES"
+	default = {
+		name = OPTIMIZED_MAP
+		text = "RULE_OPTION_OPTIMIZED_MAP"
+		desc = "RULE_OPTION_OPTIMIZED_MAP_DESC"
+	}
+	option = {
+		name = FULL_MAP
+		text = "RULE_OPTION_FULL_MAP"
+		desc = "RULE_OPTION_FULL_MAP_DESC"
+	}
+	option = {
+		name = NO_ASIA_MAP
+		text = "RULE_OPTION_NO_ASIA_MAP"
+		desc = "RULE_OPTION_NO_ASIA_MAP_DESC"
+	}
+}

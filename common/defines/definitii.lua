@@ -9,7 +9,7 @@ NDefines.NDiplomacy.BASE_SEND_ATTACHE_CP_COST = 50.0				-- Command Power sent at
 NDefines.NDiplomacy.MIN_WARGOAL_JUSTIFY_COST = 7.0					-- It always takes atleast 10 days to justify a wargoal
 NDefines.NDiplomacy.PEACE_SCORE_PER_PASS = 100.0
 NDefines.NDiplomacy.IDEOLOGY_JOIN_FACTION_MIN_LEVEL = 0
-NDefines.NDiplomacy.VOLUNTEERS_TRANSFER_SPEED = 5 
+NDefines.NDiplomacy.VOLUNTEERS_TRANSFER_SPEED = 5
 ----------------------------------
 NDefines.NCountry.EVENT_PROCESS_OFFSET = 30				-- Events are checked every X day per country or state (1 is ideal, but CPU heavy)
 ----------------------------------
@@ -717,3 +717,5 @@ NDefines.NMilitary.REINFORCE_CHANCE = 0.005 --haha lol -- vanilla 0.02
 NDefines.NProduction.EQUIPMENT_BASE_LEND_LEASE_WEIGHT = 3.0 -- Base equipment lend lease weight
 NDefines.NProduction.EQUIPMENT_LEND_LEASE_WEIGHT_FACTOR = 0.03 -- Base equipment lend lease factor
 NDefines.NProduction.LEND_LEASE_DELIVERY_TOTAL_DAYS = 30                    -- Nr of days between lend lease deliveries
+
+NDefines.NGame.GAME_SPEED_SECONDS = { 6000.0, 0.25, 0.1, 0.05, 0.0 }
