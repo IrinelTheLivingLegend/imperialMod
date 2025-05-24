@@ -37,13 +37,13 @@ NDefines.NProduction.CAPITULATE_STOCKPILES_RATIO = 0
 ----------------------------------
 NDefines.NTechnology.MAX_SUBTECHS = 4						-- Max number of sub technologies a technology can have.
 NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 100.0 --#base game 30 changed to 50 and then why not 56?
-NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 3.0		-- Base year ahead penalty
+NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 1.0		-- Base year ahead penalty
 NDefines.NTechnology.BASE_TECH_COST = 100					-- Base cost for a tech. multiplied with tech cost and ahead of time penalties
 ----------------------------------
 NDefines.NCountry.SPECIAL_FORCES_CAP_BASE = 0.0 -- prevent special forces exploit 
-NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 1000 -- 20 forty-width special forces divisions, plenty  
-NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 50
-NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 50
+NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 400 -- 10 forty-width special forces divisions, plenty  
+NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 500
+NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 500
 NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 5000
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 5000
 NDefines.NMilitary.MAX_AIR_EXPERIENCE = 5000
@@ -52,13 +52,10 @@ NDefines.NMilitary.TRAINING_MAX_LEVEL = 10
 NDefines.NMilitary.DEPLOY_TRAINING_MAX_LEVEL = 10
 NDefines.NMilitary.ARMY_EXP_BASE_LEVEL = 5
 NDefines.NMilitary.UNIT_EXP_LEVELS = {0.02, 0.04, 0.06,	0.08, 0.1, 0.14, 0.18, 0.22, 0.26, 0.3, 0.39, 0.48, 0.57, 0.66, 0.75, 0.78, 0.81, 0.84, 0.87, 0.9}
-NDefines.NMilitary.UNIT_EXPERIENCE_PER_TRAINING_DAY = 0.0015
-NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.03
 NDefines.NMilitary.NUKE_MIN_DAMAGE_PERCENT = 0.3
 NDefines.NMilitary.NUKE_MAX_DAMAGE_PERCENT = 0.7
-NDefines.NMilitary.RETREAT_SPEED_FACTOR = 0.15
-NDefines.NMilitary.DIG_IN_FACTOR = 0.02
-NDefines.Enemy_AIR_SUPERIORITY_IMPACT = -0.45
+NDefines.NMilitary.DIG_IN_FACTOR = 0.01
+NDefines.Enemy_AIR_SUPERIORITY_IMPACT = -0.35
 ----------------------------------
 NDefines.NAir.AIR_WING_FLIGHT_SPEED_MULT = 0.2
 NDefines.NAir.AIR_WING_XP_LEVELS = { 20, 40, 60, 80, 100, 140, 180, 220, 260, 300, 390, 480, 570, 660, 750, 780, 810, 840, 870, 900 }
@@ -140,7 +137,7 @@ NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 2000 -- Max army experience a country c
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 2000 -- Max navy experience a country can store
 NDefines.NMilitary.MAX_AIR_EXPERIENCE = 2000  -- Max air experience a country can store
 
-NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.03
+NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.02
 NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 50
 NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 10
 NDefines.NMilitary.RECON_SKILL_IMPACT = 6
@@ -165,8 +162,9 @@ NDefines.NMilitary.NEW_COMMANDER_RANDOM_PERSONALITY_TRAIT_CHANCES = { -- Chances
     0.01,
 }
 
-NDefines.NMilitary.PLANNING_DECAY = 0.005
-NDefines.NMilitary.PLANNING_GAIN = 0.025
+NDefines.NMilitary.PLANNING_DECAY = 0.012
+NDefines.NMilitary.PLANNING_GAIN = 0.016
+NDefines.NMilitary.PLANNING_MAX = 0.1     -- vanilla 0.3
 
 NDefines.NMilitary.BASE_CAPTURE_EQUIPMENT_RATIO = 0				-- after a successful land combat ratio of the equipments that are being captured/salvaged from enemy's lost equipment
 
@@ -661,25 +659,22 @@ NDefines.NOperatives.COUNTER_INTELLIGENCE_DAILY_XP_GAIN = 0.115 		-- Daily XP gi
 NDefines.NOperatives.QUIET_INTEL_NETWORK_DAILY_XP_GAIN = 0.1  		-- Daily XP given doing quiet intel network mission was 0!
 NDefines.NOperatives.BUILD_INTEL_NETWORK_DAILY_XP_GAIN = 1.25  		-- was 1.0
 
-NDefines.NTechnology.BASE_TECH_COST = 80
-NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 2 -- Base year ahead penalty from 2
-
 NDefines.NMilitary.COMBAT_MINIMUM_TIME = 1
 NDefines.NMilitary.HOURLY_ORG_MOVEMENT_IMPACT = 0 -- -0.2		-- how much org is lost every hour while moving an army.
 NDefines.NMilitary.INFRASTRUCTURE_MOVEMENT_SPEED_IMPACT = 0 -- -0.05	-- speed penalty per infrastucture below maximum.
 NDefines.NMilitary.TRAINING_ORG = 0.5                        -- vanilla 0.2
 
 NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 2   -- vanilla 3     | How many CAS/TAC can enter a combat depending on enemy width there
-NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.022      -- vanilla 0.032 | Air global damage modifier
-NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.044      -- vanilla 0.032 | global damage modifier
+NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.024      -- vanilla 0.032 | Air global damage modifier
+NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.024      -- vanilla 0.032 | global damage modifier
 
 NDefines.NMilitary.LAND_COMBAT_STR_DICE_SIZE = 2                 -- vanilla 2
-NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.05        -- vanilla 0.060
-NDefines.NMilitary.LAND_COMBAT_ORG_DICE_SIZE = 6                    -- vanilla 4
-NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.053       -- vanilla 0.053 
+NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.048        -- vanilla 0.060
+NDefines.NMilitary.LAND_COMBAT_ORG_DICE_SIZE = 4                    -- vanilla 4
+NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.042       -- vanilla 0.053 
 
 NDefines.NMilitary.LAND_COMBAT_STR_ARMOR_ON_SOFT_DICE_SIZE = 2   -- vanilla 2 | Extra damage dice if our armor outclasses enemy
-NDefines.NMilitary.LAND_COMBAT_ORG_ARMOR_ON_SOFT_DICE_SIZE = 6   -- vanilla 6 | Removed the extra damage because it didn't worked properly, it's supposed to deal more damage if unpierced 100%, but it's also active when partially pierced.
+NDefines.NMilitary.LAND_COMBAT_ORG_ARMOR_ON_SOFT_DICE_SIZE = 4   -- vanilla 6 | Removed the extra damage because it didn't worked properly, it's supposed to deal more damage if unpierced 100%, but it's also active when partially pierced.
 
 
 NDefines.NMilitary.COMBAT_OVER_WIDTH_PENALTY_MAX = 0
@@ -707,15 +702,28 @@ NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_TRUCK_MAX_FACTOR = 0.2 -- was 0.03 Base 
 NDefines.NMilitary.MIN_DIVISION_BRIGADE_HEIGHT = 5            -- vanilla: 4
 NDefines.NMilitary.GENERATE_AI_DIV_COMMAND_HISTORY_ENTRIES = false	--Should we generate history entries for the AI (may cause savegame bloat)
 NDefines.NMilitary.BATALION_CHANGED_EXPERIENCE_DROP = 0       -- vanilla 0.5
-NDefines.NMilitary.EXPERIENCE_LOSS_FACTOR = 0.85              -- vanilla 1.0  | percentage of experienced solders who die when manpower is removed
+NDefines.NMilitary.EXPERIENCE_LOSS_FACTOR = 1.0              -- vanilla 1.0  | percentage of experienced solders who die when manpower is removed
 
 NDefines.NMilitary.BASE_FORT_PENALTY = -0.2				-- fort penalty
 
-NDefines.NMilitary.ARMY_INITIATIVE_REINFORCE_FACTOR = 0.2 -- vanilla 0.25
-NDefines.NMilitary.REINFORCE_CHANCE = 0.005 --haha lol -- vanilla 0.02
+NDefines.NMilitary.ARMY_INITIATIVE_REINFORCE_FACTOR = 1.0 -- vanilla 0.25
+NDefines.NMilitary.REINFORCE_CHANCE = 0 --haha lol -- vanilla 0.02
 
 NDefines.NProduction.EQUIPMENT_BASE_LEND_LEASE_WEIGHT = 3.0 -- Base equipment lend lease weight
 NDefines.NProduction.EQUIPMENT_LEND_LEASE_WEIGHT_FACTOR = 0.03 -- Base equipment lend lease factor
 NDefines.NProduction.LEND_LEASE_DELIVERY_TOTAL_DAYS = 30                    -- Nr of days between lend lease deliveries
 
 NDefines.NGame.GAME_SPEED_SECONDS = { 6000.0, 0.25, 0.1, 0.05, 0.0 }
+
+
+NDefines.NMilitary.TACTIC_SWAP_FREQUENCEY = 24 --12
+NDefines.NMilitary.PREFERRED_TACTIC_CHARACTER_SKILL_LEVEL_REQUIRED = 1
+NDefines.NIndustrialOrganisation.DESIGN_TEAM_CHANGE_XP_COST = 0
+
+NDefines.NMilitary.UNIT_EXPERIENCE_PER_TRAINING_DAY = 0.001 --0.0025
+
+NDefines.NMilitary.ENCIRCLED_PENALTY = -0.9
+NDefines.NMilitary.RETREAT_SPEED_FACTOR = 0
+NDefines.NMilitary.WITHDRAWING_SPEED_FACTOR = 0				-- speed bonus when withdrawing
+
+NDefines.NMilitary.DAMAGE_SPLIT_ON_FIRST_TARGET = 0.5 --0.35
