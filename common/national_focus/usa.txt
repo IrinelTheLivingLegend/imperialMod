@@ -3124,6 +3124,7 @@ focus = {
 		icon = GFX_focus_generic_the_giant_wakes
 		prerequisite = { focus = USA_arsenal_of_democracy }
 		available = {
+			date > 1938.06.01
 			OR = {
 				has_war = yes
 				has_war_support > 0.3

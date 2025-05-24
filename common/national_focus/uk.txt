@@ -4985,6 +4985,7 @@ focus_tree = {
 		id = ENG_imperial_federation
 		prerequisite = { focus = ENG_imperial_conference }
 		available = {
+			date > 1939.01.01
 			if = {
 				limit = {
 					has_dlc = "Together for Victory"

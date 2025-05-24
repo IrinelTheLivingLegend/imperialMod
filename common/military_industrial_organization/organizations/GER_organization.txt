@@ -1828,7 +1828,7 @@ GER_messerschmitt_organization = {
 
 		production_bonus = {
 			production_efficiency_gain_factor = 0.25
-			production_capacity_factor = 0.25
+			production_capacity_factor = 0.5
 		}
 	}
 
@@ -2159,7 +2159,7 @@ GER_focke_wulf_organization = {
 
 		production_bonus = {
 			production_efficiency_gain_factor = 0.25
-			production_capacity_factor = 0.25
+			production_capacity_factor = 0.5
 		}
 	}
 
@@ -2656,7 +2656,7 @@ GER_dornier_organization = {
 
 		production_bonus = {
 			production_efficiency_gain_factor = 0.25
-			production_capacity_factor = 0.25
+			production_capacity_factor = 0.5
 		}
 
 		ai_will_do = {
@@ -2689,7 +2689,7 @@ GER_arado_flugzeugwerke_organization = {
 
 		production_bonus = {
 			production_efficiency_gain_factor = 0.25
-			production_capacity_factor = 0.25
+			production_capacity_factor = 0.5
 		}
 	} 
 

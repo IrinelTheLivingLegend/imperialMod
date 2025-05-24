@@ -11131,7 +11131,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = GER_anschluss
 
-		cost = 10
+		cost = 5
 
 		will_lead_to_war_with = CZE
 		will_lead_to_war_with = FRA
@@ -11497,7 +11497,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = GER_first_vienna_award
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 10
