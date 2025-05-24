@@ -1147,8 +1147,8 @@ technologies = {
 		}
 		
 		category_line_artillery = {
-			max_organisation = 10
-			default_morale = 0.3
+			max_organisation = 15
+			default_morale = 0.2
 		}
 		
 		path = {
@@ -1312,6 +1312,15 @@ technologies = {
 		xor = {
 			centralized_fire_control
 		}
+
+		on_research_complete = {
+			custom_effect_tooltip = anti_tank_discount_tt
+		}
+
+		anti_tank_brigade = {
+			need = { artillery_equipment = -3}
+		}
+
 
 		category_army = {
 			hard_attack = 0.15
@@ -1576,16 +1585,17 @@ technologies = {
 	}
 	
 	forward_observers = {
-
-		land_reinforce_rate = 0.3
-		xp_research_type = army
-		xp_unlock_cost = 100
+		artillery_brigade = {
+			initiative = 0.005
+		}
 		intel_from_combat_factor = 0.3
 		category_recon = {
 			recon = 1
 		}
 		
-		
+		xp_research_type = army
+		xp_unlock_cost = 100
+
 		path = {
 			leads_to_tech = advanced_firebases 
 			research_cost_coeff = 1
@@ -1633,13 +1643,8 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		
-		category_all_infantry = {
-			max_organisation = 10
-			default_morale = 0.1
-		}
-		
 		category_line_artillery = {
-			max_organisation = 10
+			max_organisation = 15
 		}
 		
 		
@@ -1693,11 +1698,11 @@ technologies = {
 		xp_unlock_cost = 100
 		
 		category_front_line = {
-			 soft_attack = 0.15
+			 soft_attack = 0.075
 		}
 		category_artillery = { 
-			soft_attack = 0.15
-			breakthrough = 0.15
+			soft_attack = 0.075
+			breakthrough = 0.075
 		}
 		enable_tactic = tactic_breakthrough
 				
@@ -2261,9 +2266,13 @@ technologies = {
 		xor = {
 			grand_mechanized_offensive
 		}
-		category_light_infantry = {
-			max_organisation = 5
-			breakthrough = 0.1
+		
+		on_research_complete = {
+			custom_effect_tooltip = support_discount_tt
+		}
+
+		engineer = {
+			need = { support_equipment = -15}
 		}
 		
 		

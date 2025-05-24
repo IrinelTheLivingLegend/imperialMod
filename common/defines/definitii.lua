@@ -669,7 +669,7 @@ NDefines.NMilitary.HOURLY_ORG_MOVEMENT_IMPACT = 0 -- -0.2		-- how much org is lo
 NDefines.NMilitary.INFRASTRUCTURE_MOVEMENT_SPEED_IMPACT = 0 -- -0.05	-- speed penalty per infrastucture below maximum.
 NDefines.NMilitary.TRAINING_ORG = 0.5                        -- vanilla 0.2
 
-NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 1   -- vanilla 3     | How many CAS/TAC can enter a combat depending on enemy width there
+NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 2   -- vanilla 3     | How many CAS/TAC can enter a combat depending on enemy width there
 NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.022      -- vanilla 0.032 | Air global damage modifier
 NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.044      -- vanilla 0.032 | global damage modifier
 
@@ -684,8 +684,8 @@ NDefines.NMilitary.LAND_COMBAT_ORG_ARMOR_ON_SOFT_DICE_SIZE = 6   -- vanilla 6 | 
 
 NDefines.NMilitary.COMBAT_OVER_WIDTH_PENALTY_MAX = 0
 
-NDefines.NMilitary.RIVER_CROSSING_PENALTY = -0.15  -- -0.3               -- small river crossing
-NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.3 -- -0.6          -- large river crossing
+NDefines.NMilitary.RIVER_CROSSING_PENALTY = -0.2  -- small river crossing
+NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.4 -- large river crossing
 
 NDefines.NMilitary.RIVER_CROSSING_SPEED_PENALTY =  0 -- vanilla -0.25 | small river crossing
 NDefines.NMilitary.RIVER_CROSSING_SPEED_PENALTY_LARGE = 0 -- vanilla -0.5 | large river crossing
