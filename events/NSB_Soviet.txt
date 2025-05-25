@@ -1993,7 +1993,7 @@ country_event = {
 				days = 180
 			}
 			#RESET PROPAGANDA CAMPAIGN
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 			clr_country_flag = SOV_propaganda_peace_active_flag
 			set_variable = { SOV_propaganda_campaign_to_remove = 25 }
 			SOV_reset_propaganda_campaign_slot_effect = yes
@@ -2031,7 +2031,7 @@ country_event = {
 				days = 180
 			}
 			#RESET PROPAGANDA CAMPAIGN
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 			clr_country_flag = SOV_propaganda_peace_active_flag
 			set_variable = { SOV_propaganda_campaign_to_remove = 25 }
 			SOV_reset_propaganda_campaign_slot_effect = yes

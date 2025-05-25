@@ -22,7 +22,7 @@ ideas = {
 				generate_wargoal_tension = 1.00
 				join_faction_tension = 0.20
 				lend_lease_tension = 0.50
-				send_volunteers_tension = 0.20
+				#send_volunteers_tension = 0.20
 				guarantee_tension = 0.75
 				max_fuel_factor = -0.45
 				fuel_gain_factor = -0.6
@@ -67,7 +67,7 @@ ideas = {
 				conversion_cost_mil_to_civ_factor = 0.4
 				generate_wargoal_tension = 1.00
 				join_faction_tension = 0.20
-				send_volunteers_tension = 0.20
+				#send_volunteers_tension = 0.20
 				guarantee_tension = 0.5
 				max_fuel_factor = -0.35
 				fuel_gain_factor = -0.5
@@ -120,8 +120,19 @@ ideas = {
 		low_economic_mobilisation = {
 
 			available = {
+				or = {
+					not = {
+						or = {
+							original_tag = ENG
+							original_tag = USA
+						}
+					}
+					and = {
+						original_tag = ENG
+						date > 1937.01.01
+					}
+				}
 				has_war_support > 0.15
-				
 				IF = {
 					limit = {
 						original_tag = HUN
@@ -247,6 +258,18 @@ ideas = {
 		partial_economic_mobilisation = {
 
 			available = {
+				or = {
+					not = {
+						or = {
+							original_tag = ENG
+							original_tag = USA
+						}
+					}
+					and = {
+						original_tag = ENG
+						date > 1938.01.01
+					}
+				}
 				has_war_support > 0.25
 
 				IF = {
@@ -373,9 +396,19 @@ ideas = {
 		}
 
 		war_economy = {
-
-
 			available = {
+				or = {
+					not = {
+						or = {
+							original_tag = ENG
+							original_tag = USA
+						}
+					}
+					and = {
+						original_tag = ENG
+						date > 1939.01.01
+					}
+				}
 				has_war_support > 0.5
 				OR = {
 					has_government = fascism
@@ -538,6 +571,18 @@ ideas = {
 			}
 
 			available = {
+				or = {
+					not = {
+						or = {
+							original_tag = ENG
+							original_tag = USA
+						}
+					}
+					and = {
+						original_tag = ENG
+						date > 1940.01.01
+					}
+				}
 				has_war = yes
 				has_war_support > 0.8
 				any_enemy_country = {

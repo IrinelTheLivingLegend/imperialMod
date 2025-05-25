@@ -2098,7 +2098,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 			add_tech_bonus = {
 				name = air_equipment
 				bonus = 1.0
@@ -2151,7 +2151,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 			add_ideas = MEX_international_peacekeepers
 			add_tech_bonus = {
                 name = special_forces_bonus
@@ -3772,7 +3772,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 			add_ideas = MEX_international_struggle
 		}
 	}
@@ -6670,7 +6670,7 @@ focus_tree = {
 				}
 			}
 			add_ideas = POR_volunteers_in_the_war_carlist
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 		}
 	}
 

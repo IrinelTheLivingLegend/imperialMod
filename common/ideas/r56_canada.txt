@@ -1081,7 +1081,7 @@ ideas = {
 	
 			modifier = {
 				lend_lease_tension = -1.00
-				send_volunteers_tension = -0.5
+				#send_volunteers_tension = -0.5
 			}
 		}
 		
@@ -1450,12 +1450,12 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				send_volunteer_divisions_required = -0.5
-				send_volunteer_size	= 3
+				#send_volunteer_divisions_required = -0.5
+				#send_volunteer_size	= 3
 			}
 			
 			rule = {
-				can_send_volunteers = yes
+				##can_send_volunteers = yes
 			}
 		}		
 		
@@ -1686,13 +1686,13 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				send_volunteer_divisions_required = -0.5
-				send_volunteer_size = 3
-				air_volunteer_cap = 100
+				#send_volunteer_divisions_required = -0.5
+				#send_volunteer_size = 3
+				#air_volunteer_cap = 100
 			}
 			
 			rule = {
-				can_send_volunteers = yes
+				##can_send_volunteers = yes
 			}
 		}
 		
@@ -1762,12 +1762,12 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				send_volunteer_divisions_required = -0.75
-				send_volunteer_size	= 4
+				#send_volunteer_divisions_required = -0.75
+				#send_volunteer_size	= 4
 			}
 			
 			rule = {
-				can_send_volunteers = yes
+				##can_send_volunteers = yes
 			}
 		}
 		

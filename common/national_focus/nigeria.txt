@@ -2526,7 +2526,7 @@ focus_tree = {
 			}
 
             add_ideas = BEL_volunteer_corps
-            set_rule = { can_send_volunteers = yes }
+            #set_rule = { #can_send_volunteers = yes }
             
 			#AI Stuff
 			if = {

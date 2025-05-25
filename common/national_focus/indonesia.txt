@@ -145,7 +145,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_war_support = 0.05
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 			add_ideas = INS_volunteers_idea
 		}
 		search_filters = { FOCUS_FILTER_ANNEXATION }

@@ -1262,7 +1262,7 @@ focus = {
 		}
 
 		completion_reward = {
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 			add_timed_idea = {
 				idea = r56_CHL_spanish_civil_war_involvement
 				days = 1095
@@ -4241,7 +4241,7 @@ focus = {
 				}
 			}
 			add_ideas = POR_volunteers_in_the_war_carlist
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_SPA_CIVIL_WAR }
 	}

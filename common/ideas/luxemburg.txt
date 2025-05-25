@@ -24,7 +24,7 @@ ideas = {
 	
 			modifier = {
 				join_faction_tension = 0.50
-				send_volunteers_tension = 0.50
+				#send_volunteers_tension = 0.50
 				guarantee_tension = 0.50
 				improve_relations_maintain_cost_factor = -0.50
 				trade_opinion_factor = 0.50
@@ -167,10 +167,10 @@ ideas = {
 	
 			modifier = {
 				war_support_factor = 0.10
-				send_volunteer_divisions_required = -1
+				#send_volunteer_divisions_required = -1
 				lend_lease_tension = -1
-				send_volunteer_size = 1
-				send_volunteers_tension = -1
+				#send_volunteer_size = 1
+				#send_volunteers_tension = -1
 			}
 		}
 

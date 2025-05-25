@@ -5532,7 +5532,7 @@ focus = {
 				}
 				add_relation_rule_override = {
 					target = SPD
-					can_send_volunteers = yes
+					#can_send_volunteers = yes
 				}
 
 				custom_effect_tooltip = generic_skip_one_line_tt
@@ -5543,7 +5543,7 @@ focus = {
 			ELSE = { #this is for tooltip reasons before and after the scw
 				add_relation_rule_override = {
 					target = SPR
-					can_send_volunteers = yes
+					#can_send_volunteers = yes
 				}
 
 				custom_effect_tooltip = generic_skip_one_line_tt
@@ -5892,7 +5892,7 @@ focus = {
 			}
 
 			set_rule = { 
-				can_send_volunteers = yes
+				#can_send_volunteers = yes
 			}
 		}
 

@@ -267,16 +267,16 @@ ideas = {
 	      picture = vittoria_mutilata
 
 				rule = {
-					can_send_volunteers = yes
+					##can_send_volunteers = yes
 				}
 
 	      modifier = {
 	        resistance_growth_on_our_occupied_states = 0.15
 	        conscription_factor = 0.025
 			    planning_speed = 0.1
-					send_volunteers_tension = -0.75
-					send_volunteer_divisions_required = -0.75
-					send_volunteer_size = 3
+					#send_volunteers_tension = -0.75
+					#send_volunteer_divisions_required = -0.75
+					#send_volunteer_size = 3
 	      }
 	    }
 
@@ -1076,13 +1076,13 @@ ideas = {
 			picture = FRA_scw_intervention_republicans_focus
 
 			rule = {
-				can_send_volunteers = yes
+				##can_send_volunteers = yes
 			}
 
 			modifier = {
-				send_volunteer_size = 3
-				send_volunteers_tension = -1
-				send_volunteer_divisions_required = -1
+				#send_volunteer_size = 3
+				#send_volunteers_tension = -1
+				#send_volunteer_divisions_required = -1
 			}
 		}
 

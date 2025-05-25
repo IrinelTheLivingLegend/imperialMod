@@ -596,7 +596,7 @@ focus_tree = {
 				limit = { has_idea = neutrality_idea }
 				remove_ideas = neutrality_idea
 			}	
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 			add_political_power = 150
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }

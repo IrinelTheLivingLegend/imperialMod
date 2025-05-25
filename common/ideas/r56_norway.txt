@@ -769,11 +769,10 @@ ideas = {
 			modifier = {
 				production_speed_buildings_factor = 0.05
 				industry_repair_factor = 0.05
-				send_volunteers_tension = -0.50
-				send_volunteer_divisions_required = -0.50
+				#send_volunteers_tension = -0.50
+				#send_volunteer_divisions_required = -0.50
 			}
 			
-			rule = { can_send_volunteers = yes }
 		}
 		
 		NOR_preserving_the_kingdom = {
@@ -800,12 +799,11 @@ ideas = {
 				recon_factor_while_entrenched = 0.10
 				ai_focus_defense_factor = 0.10
 				industry_repair_factor = 0.10
-				send_volunteers_tension = -0.40
-				send_volunteer_divisions_required = -0.40
+				#send_volunteers_tension = -0.40
+				#send_volunteer_divisions_required = -0.40
 				resistance_damage_to_garrison = -0.20
 			}
 			
-			rule = { can_send_volunteers = yes }
 		}
 		
 		NOR_diplomatic_efforts = {
@@ -1085,7 +1083,7 @@ ideas = {
 			modifier = {
 				compliance_growth_on_our_occupied_states = -0.25
 				resistance_growth_on_our_occupied_states = 0.10
-				send_volunteer_divisions_required = -0.75
+				#send_volunteer_divisions_required = -0.75
 			}
 		}
 		

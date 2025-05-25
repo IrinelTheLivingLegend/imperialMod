@@ -927,8 +927,8 @@ ideas = {
 			}
 			
 			modifier = {
-				send_volunteer_divisions_required = -0.30
-				send_volunteers_tension = -0.4
+				#send_volunteer_divisions_required = -0.30
+				#send_volunteers_tension = -0.4
 			}
 			
 			cancel = {

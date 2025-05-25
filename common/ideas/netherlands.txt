@@ -67,7 +67,7 @@ ideas = {
 				#generate_wargoal_tension = 1.00
 				join_faction_tension = 1.00
 				#lend_lease_tension = 0.50
-				send_volunteers_tension = 0.50
+				#send_volunteers_tension = 0.50
 				guarantee_tension = 1.0
 				ai_badass_factor = 0.01    # Will receive 1% of the threat from others
 				ai_get_ally_desire_factor = -100
@@ -2050,13 +2050,13 @@ ideas = {
 			removal_cost = -1
 			
 			rule = {
-				can_send_volunteers = yes
+				##can_send_volunteers = yes
 			}
 
 			modifier = {
-				send_volunteer_size = 3
-				send_volunteers_tension = -1
-				send_volunteer_divisions_required = -1
+				#send_volunteer_size = 3
+				#send_volunteers_tension = -1
+				#send_volunteer_divisions_required = -1
 			}			
 		}
 		HOL_railroad_investments = {

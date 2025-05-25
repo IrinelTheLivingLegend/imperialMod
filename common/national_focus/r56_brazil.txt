@@ -824,7 +824,7 @@ focus_tree = {
 		relative_position_id = bra_tecnocratic_reform
 		cost = 10
 		completion_reward = {
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 			add_ideas = { bra_feb_idea }
 		}
 	}
@@ -4183,7 +4183,7 @@ focus = {
 		cost = 5
 		completion_reward = {
 			set_rule = {
-				can_send_volunteers = yes
+				#can_send_volunteers = yes
 			}
 			add_ideas = { bra_volunteer_idea }
 			

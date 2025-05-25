@@ -9,7 +9,11 @@ NDefines.NDiplomacy.BASE_SEND_ATTACHE_CP_COST = 50.0				-- Command Power sent at
 NDefines.NDiplomacy.MIN_WARGOAL_JUSTIFY_COST = 7.0					-- It always takes atleast 10 days to justify a wargoal
 NDefines.NDiplomacy.PEACE_SCORE_PER_PASS = 100.0
 NDefines.NDiplomacy.IDEOLOGY_JOIN_FACTION_MIN_LEVEL = 0
-NDefines.NDiplomacy.VOLUNTEERS_TRANSFER_SPEED = 5
+NDefines.NDiplomacy.VOLUNTEERS_TRANSFER_SPEED = 1
+NDefines.NDiplomacy.VOLUNTEERS_PER_TARGET_PROVINCE = 0			-- Each province owned by the target country contributes this amount of volunteers to the limit.
+NDefines.NDiplomacy.VOLUNTEERS_PER_COUNTRY_ARMY = 0				-- Each army unit owned by the source country contributes this amount of volunteers to the limit.
+NDefines.NDiplomacy.VOLUNTEERS_RETURN_EQUIPMENT = 1.0				-- Returning volunteers keep this much equipment
+NDefines.NDiplomacy.VOLUNTEERS_DIVISIONS_REQUIRED = 0				-- This many divisons are required for the country to be able to send volunteers.
 ----------------------------------
 NDefines.NCountry.EVENT_PROCESS_OFFSET = 30				-- Events are checked every X day per country or state (1 is ideal, but CPU heavy)
 ----------------------------------
@@ -85,7 +89,7 @@ NDefines.NDiplomacy.MIN_OPINION_VALUE = -200								-- Vanilla is -100
 NDefines.NDiplomacy.VERY_GOOD_OPINION = 100								-- Vanilla is 50
 NDefines.NDiplomacy.VERY_BAD_OPINION = -100								-- Vanilla is -50
 NDefines.NDiplomacy.FRONT_IS_DANGEROUS = 0									-- Vanilla is -100	
-NDefines.NDiplomacy.TENSION_VOLUNTEER_FORCE_DIVISION = 0.1
+NDefines.NDiplomacy.TENSION_VOLUNTEER_FORCE_DIVISION = 0.2
 NDefines.NDiplomacy.MAX_REMEMBERED_LEASED_IC = 2000				-- Maximum of leased equipment value that is remembered for opinion bonus
 NDefines.NDiplomacy.MAX_OPINION_FOR_LEASED_IC = 50					-- Positive opinion when remembering the MAX_REMEMBERED_LEASED_IC equipment
 NDefines.NDiplomacy.MONTHLY_LEASED_IC_DECAY = 35					-- How much of leased equipment is being "forgot" each month

@@ -2706,7 +2706,7 @@ focus_tree = {
 			}			
 			add_ideas = SLO_militarism_focus
 			army_experience = 10
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 		}
 		search_filters = {  FOCUS_FILTER_MANPOWER }
 	}

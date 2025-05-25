@@ -527,8 +527,8 @@ ideas = {
 			modifier = {
 					conscription = 0.01
 					army_org_factor = 0.05
-					send_volunteer_divisions_required = -0.5
-					send_volunteer_size = 1
+					#send_volunteer_divisions_required = -0.5
+					#send_volunteer_size = 1
 			}
 			
 		}
@@ -576,8 +576,8 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-					send_volunteer_divisions_required = -0.5
-					send_volunteer_size = 1
+					#send_volunteer_divisions_required = -0.5
+					#send_volunteer_size = 1
 					conscription = 0.05
 					justify_war_goal_time = -0.1
 			}

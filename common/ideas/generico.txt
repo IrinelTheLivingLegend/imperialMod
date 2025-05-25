@@ -2444,7 +2444,7 @@ ideas = {
 				guarantee_tension = -0.15
 				join_faction_tension = -0.30
 				lend_lease_tension = -0.30
-				send_volunteers_tension = -0.40
+				#send_volunteers_tension = -0.40
 			}
 		}
 
@@ -2465,10 +2465,10 @@ ideas = {
 				guarantee_tension = -0.15
 				join_faction_tension = -0.30
 				lend_lease_tension = -0.30
-				send_volunteers_tension = -0.40
-				send_volunteer_size = 3
-				air_volunteer_cap = 20
-				send_volunteer_divisions_required = -0.5
+				#send_volunteers_tension = -0.40
+				#send_volunteer_size = 3
+				#air_volunteer_cap = 20
+				#send_volunteer_divisions_required = -0.5
 				conscription = 0.005
 			}
 		}
@@ -2490,7 +2490,7 @@ ideas = {
 				guarantee_tension = -0.15
 				join_faction_tension = -0.30
 				lend_lease_tension = -0.30
-				send_volunteers_tension = -0.40
+				#send_volunteers_tension = -0.40
 				guarantee_cost = -0.5
 				special_forces_training_time_factor = -0.1
 				special_forces_cap = 0.015
@@ -2514,10 +2514,10 @@ ideas = {
 				guarantee_tension = -0.15
 				join_faction_tension = -0.30
 				lend_lease_tension = -0.30
-				send_volunteers_tension = -0.40
-				send_volunteer_size = 3
-				air_volunteer_cap = 20
-				send_volunteer_divisions_required = -0.5
+				#send_volunteers_tension = -0.40
+				#send_volunteer_size = 3
+				#air_volunteer_cap = 20
+				#send_volunteer_divisions_required = -0.5
 				conscription = 0.005
 				guarantee_cost = -0.5
 				special_forces_training_time_factor = -0.1
@@ -2542,7 +2542,7 @@ ideas = {
 				enemy_justify_war_goal_time = 0.35
 				production_speed_industrial_complex_factor = 0.25
 				join_faction_tension = 1.00
-				send_volunteers_tension = 0.20
+				#send_volunteers_tension = 0.20
 				guarantee_tension = 1.0
 				embargo_threshold_factor = 2.5
 				ai_badass_factor = 0.01
@@ -2566,7 +2566,7 @@ ideas = {
 				production_speed_arms_factory_factor = 0.1
 				production_speed_dockyard_factor = 0.1
 				join_faction_tension = 1.00
-				send_volunteers_tension = 0.20
+				#send_volunteers_tension = 0.20
 				guarantee_tension = 1.0
 				embargo_threshold_factor = 2.5
 				ai_badass_factor = 0.01
@@ -2593,7 +2593,7 @@ ideas = {
 				production_speed_arms_factory_factor = 0.15
 				production_speed_dockyard_factor = 0.15
 				join_faction_tension = 1.00
-				send_volunteers_tension = 0.20
+				#send_volunteers_tension = 0.20
 				guarantee_tension = 1.0
 				embargo_threshold_factor = 2.5
 				ai_badass_factor = 0.01
@@ -2621,7 +2621,7 @@ ideas = {
 				production_speed_arms_factory_factor = 0.15
 				production_speed_dockyard_factor = 0.15
 				join_faction_tension = 1.00
-				send_volunteers_tension = 0.20
+				#send_volunteers_tension = 0.20
 				guarantee_tension = 1.0
 				embargo_threshold_factor = 2.5
 				ai_badass_factor = 0.01
@@ -2649,7 +2649,7 @@ ideas = {
 				production_speed_arms_factory_factor = 0.15
 				production_speed_dockyard_factor = 0.15
 				join_faction_tension = 1.00
-				send_volunteers_tension = 0.20
+				#send_volunteers_tension = 0.20
 				guarantee_tension = 1.0
 				embargo_threshold_factor = 2.5
 				ai_badass_factor = 0.01
@@ -2678,7 +2678,7 @@ ideas = {
 				production_speed_arms_factory_factor = 0.15
 				production_speed_dockyard_factor = 0.15
 				join_faction_tension = 1.00
-				send_volunteers_tension = 0.20
+				#send_volunteers_tension = 0.20
 				guarantee_tension = 1.0
 				embargo_threshold_factor = 2.5
 				ai_badass_factor = 0.01
@@ -2708,7 +2708,7 @@ ideas = {
 				production_speed_arms_factory_factor = 0.20
 				production_speed_dockyard_factor = 0.20
 				join_faction_tension = 1.00
-				send_volunteers_tension = 0.20
+				#send_volunteers_tension = 0.20
 				guarantee_tension = 1.0
 				embargo_threshold_factor = 2.5
 				ai_badass_factor = 0.01
@@ -2738,7 +2738,7 @@ ideas = {
 				production_speed_arms_factory_factor = 0.20
 				production_speed_dockyard_factor = 0.20
 				join_faction_tension = 1.00
-				send_volunteers_tension = 0.20
+				#send_volunteers_tension = 0.20
 				guarantee_tension = 1.0
 				embargo_threshold_factor = 2.5
 				ai_badass_factor = 0.01
@@ -2768,7 +2768,7 @@ ideas = {
 				production_speed_arms_factory_factor = 0.25
 				production_speed_dockyard_factor = 0.25
 				join_faction_tension = 1.00
-				send_volunteers_tension = 0.20
+				#send_volunteers_tension = 0.20
 				guarantee_tension = 1.0
 				embargo_threshold_factor = 2.5
 				ai_badass_factor = 0.01
@@ -2796,7 +2796,7 @@ ideas = {
 					
 			modifier = {
 				join_faction_tension = 1.00
-				send_volunteers_tension = 0.20
+				#send_volunteers_tension = 0.20
 				guarantee_tension = 1.0
 				embargo_threshold_factor = 2.5
 				ai_badass_factor = 0.01
@@ -3754,9 +3754,9 @@ ideas = {
 				training_time_factor = -0.1
 				army_attack_against_major_factor = 0.05
 				army_defence_against_major_factor = 0.05
-				send_volunteer_divisions_required = -0.2
-				send_volunteer_size = 2
-				send_volunteers_tension = -0.4
+				#send_volunteer_divisions_required = -0.2
+				#send_volunteer_size = 2
+				#send_volunteers_tension = -0.4
 			}
 		}
 
@@ -3773,9 +3773,9 @@ ideas = {
 				training_time_factor = -0.1
 				army_attack_against_major_factor = 0.1
 				army_defence_against_major_factor = 0.1
-				send_volunteer_divisions_required = -0.2
-				send_volunteer_size = 2
-				send_volunteers_tension = -0.4
+				#send_volunteer_divisions_required = -0.2
+				#send_volunteer_size = 2
+				#send_volunteers_tension = -0.4
 				surrender_limit = 0.1
 			}
 		}
@@ -4163,8 +4163,8 @@ ideas = {
 			picture = spa_maquis
 					
 			modifier = {
-				send_volunteer_divisions_required = -0.75
-				send_volunteers_tension = -0.50
+				#send_volunteer_divisions_required = -0.75
+				#send_volunteers_tension = -0.50
 			}
 		}
 
@@ -4180,8 +4180,8 @@ ideas = {
 			picture = SPR_nationalist_remnants
 					
 			modifier = {
-				send_volunteer_divisions_required = -0.75
-				send_volunteers_tension = -0.50
+				#send_volunteer_divisions_required = -0.75
+				#send_volunteers_tension = -0.50
 			}
 		}
 
@@ -4197,8 +4197,8 @@ ideas = {
 			picture = SPA_maquis
 					
 			modifier = {
-				send_volunteer_divisions_required = -0.75
-				send_volunteers_tension = -0.50
+				#send_volunteer_divisions_required = -0.75
+				#send_volunteers_tension = -0.50
 			}
 		}
 	}

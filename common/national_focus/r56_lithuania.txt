@@ -4860,7 +4860,7 @@ focus = {
 			factor = 1
 		}
 		completion_reward = {
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 			add_ideas = LIT_anti_bolshevik_legions_idea
 		}
 		search_filters = { FOCUS_FILTER_ANNEXATION }
@@ -6129,7 +6129,7 @@ focus = {
 				name = LIT_monarchy_party      
 			}
 			promote_character = LIT_karl_gero
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 			if = {
 				limit = {
 					has_idea = LIT_council_of_lithuania_2

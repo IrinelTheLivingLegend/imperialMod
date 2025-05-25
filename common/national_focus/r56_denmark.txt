@@ -2250,7 +2250,7 @@ focus_tree = {
 				can_create_factions = yes
 			}
 			set_rule = {
-				can_send_volunteers = yes
+				#can_send_volunteers = yes
 			}
 		}
 
@@ -3487,7 +3487,7 @@ focus_tree = {
 		relative_position_id = DEN_DKP_Takeover
 		completion_reward = {
 			set_rule = {
-				can_send_volunteers = yes
+				#can_send_volunteers = yes
 			}
 			army_experience = 25
 			add_tech_bonus = {
@@ -4253,7 +4253,7 @@ focus_tree = {
 		relative_position_id = DEN_DKP_Takeover
 		completion_reward = {
 			set_rule = {
-				can_send_volunteers = yes
+				#can_send_volunteers = yes
 			}
 			every_other_country = {
 				limit = {
@@ -4962,7 +4962,7 @@ focus_tree = {
 				can_create_factions = yes
 			}
 			set_rule = {
-				can_send_volunteers = yes
+				#can_send_volunteers = yes
 			}
 			if = {
 				limit = {
@@ -5131,7 +5131,7 @@ focus_tree = {
 					}
 				}
 				set_rule = {
-					can_send_volunteers = yes
+					#can_send_volunteers = yes
 				}
 			}
 			every_other_country = {
@@ -5758,7 +5758,7 @@ focus_tree = {
 		relative_position_id = DEN_DNSAP_Takeover
 		completion_reward = {
 			set_rule = {
-				can_send_volunteers = yes
+				#can_send_volunteers = yes
 			}
 			random_owned_controlled_state = {
 				limit = {

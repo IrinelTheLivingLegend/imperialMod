@@ -1063,7 +1063,7 @@ focus_tree = {
 
         completion_reward = {	
 			set_rule = {
-   				can_send_volunteers = yes
+   				#can_send_volunteers = yes
 			}
 			add_ideas = PAL_free_arab_legion_idea
 		}																																																												
@@ -4997,7 +4997,7 @@ focus_tree = {
 
         completion_reward = {
 			set_rule = {
-   				can_send_volunteers = yes
+   				#can_send_volunteers = yes
 			}
 			add_ideas = PAL_al_aqsa_martyrs_idea
 			custom_effect_tooltip = PAL_al_aqsa_brigadiers_tt

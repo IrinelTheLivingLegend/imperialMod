@@ -747,7 +747,7 @@ country_event = {
 		set_capital = { state = 608 }
 		set_country_flag = prc_capital_decided
 		set_rule = {
-			can_send_volunteers = yes
+			#can_send_volunteers = yes
 			can_puppet = yes
 		}
 	}
@@ -769,7 +769,7 @@ country_event = {
 		set_capital = { state = 613 }
 		set_country_flag = prc_capital_decided
 		set_rule = {
-			can_send_volunteers = yes
+			#can_send_volunteers = yes
 			can_puppet = yes
 		}
 	}
@@ -790,7 +790,7 @@ country_event = {
 		}
 		set_country_flag = prc_capital_decided
 		set_rule = {
-			can_send_volunteers = yes
+			#can_send_volunteers = yes
 			can_puppet = yes
 		}
 	}

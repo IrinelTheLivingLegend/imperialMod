@@ -1898,7 +1898,7 @@ focus = {
 					}
 				}
 			}
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 			add_ideas = USA_limited_intervention
 			USA_congress_large_opposition = yes
 			if = {
@@ -4005,7 +4005,7 @@ focus = {
 				limit = {
 					NOT = { has_idea = tblra_volunteer_corps }
 				}
-				set_rule = { can_send_volunteers = yes }
+				#set_rule = { #can_send_volunteers = yes }
 				add_ideas = tblra_volunteer_corps
 			}
 		}

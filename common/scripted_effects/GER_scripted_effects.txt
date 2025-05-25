@@ -578,7 +578,7 @@ GER_civil_war_make_this_communist = {
 		war_economy
 	}
 	set_rule = {
-		can_send_volunteers = yes
+		#can_send_volunteers = yes
 	}
 
 	log = "GER_civil_war_make_this_communist: Targeting '[THIS.GetTag]:[THIS.GetName]'"
@@ -814,7 +814,7 @@ GER_civil_war_make_this_democratic = {
 		partial_economic_mobilisation
 	}
 	set_rule = {
-		can_send_volunteers = yes
+		#can_send_volunteers = yes
 	}
 	save_event_target_as = conservative_germany
 	set_country_flag = r56_conservative_germany_aliases_set

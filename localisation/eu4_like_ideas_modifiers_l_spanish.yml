@@ -76,7 +76,7 @@
  can_generate_female_aces: "$CAN_GENERATE_FAMALE_ACES$"
  can_guarantee_other_ideologies: "$CAN_GUARANTEE_OTHER_IDEOLOGIES$"
  can_only_justify_war_on_threat_country: "$CAN_ONLY_JUSTIFY_WAR_ON_THREAT_COUNTRY$"
- can_send_volunteers: "$CAN_SEND_VOLUNTEERS$"
+ can_send_volunteers: "$can_send_volunteers$"
  can_use_kamikaze_pilots: "$CAN_USE_KAMIKAZE_PILOTS$"
  capital_ship_equipment: "$EQUIPMENT_CAPITAL_SHIP$"
  carrier_size: "$STAT_CARRIER_SIZE$"

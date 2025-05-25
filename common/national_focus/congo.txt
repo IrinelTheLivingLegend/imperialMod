@@ -6404,11 +6404,11 @@ focus_tree = {
 			IF = {
 				limit = {
 					NOT = {
-						has_rule = can_send_volunteers	
+						has_rule = #can_send_volunteers	
 					}
 				}
 				set_rule = { 
-					can_send_volunteers = yes
+					#can_send_volunteers = yes
 				}	
 				custom_effect_tooltip = generic_skip_one_line_tt
 			}

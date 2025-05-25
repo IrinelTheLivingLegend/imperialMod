@@ -2068,7 +2068,7 @@
 			}			
 			add_ideas = militarism_focus
 			army_experience = 20
-			set_rule = { can_send_volunteers = yes }
+
 		}
 	}
 
@@ -2164,7 +2164,7 @@
 				limit = { has_idea = neutrality_idea }
 				remove_ideas = neutrality_idea
 			}	
-			set_rule = { can_send_volunteers = yes }
+
 			add_political_power = 150
 		}
 	}

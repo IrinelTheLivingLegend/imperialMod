@@ -3790,7 +3790,7 @@ focus_tree = {
             }
             hidden_effect = {
                 set_rule = { 
-                    can_send_volunteers = yes # rule to use, e.g.  can_not_declare_war = yes
+                    #can_send_volunteers = yes # rule to use, e.g.  can_not_declare_war = yes
                 }
             }
             swap_ideas = {

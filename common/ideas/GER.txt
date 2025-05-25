@@ -289,7 +289,7 @@ ideas = {
 				drift_defence_factor = 0.1
 				join_faction_tension = -0.2
 				lend_lease_tension = -0.2
-				send_volunteers_tension = -0.2
+				#send_volunteers_tension = -0.2
 			}
 		}
 
@@ -312,7 +312,7 @@ ideas = {
 				drift_defence_factor = 0.1
 				join_faction_tension = -0.2
 				lend_lease_tension = -0.2
-				send_volunteers_tension = -0.2
+				#send_volunteers_tension = -0.2
 			}
 		}
 
@@ -1859,8 +1859,8 @@ ideas = {
 			modifier = {
 				experience_gain_army_factor = 0.15
 				experience_gain_air_factor = 0.15
-				send_volunteer_size = 2
-				air_volunteer_cap = 2
+				#send_volunteer_size = 2
+				#air_volunteer_cap = 2
 			}
 		}
 
@@ -1885,11 +1885,11 @@ ideas = {
 			}
 
 			modifier = {
-				#send_volunteer_divisions_required = -0.5
+				##send_volunteer_divisions_required = -0.5
 				experience_gain_army_factor = 0.15
 				experience_gain_air_factor = 0.15
-				send_volunteer_size = 2
-				air_volunteer_cap = 2
+				#send_volunteer_size = 2
+				#air_volunteer_cap = 2
 			}
 		}
 
@@ -1911,12 +1911,12 @@ ideas = {
 			}
 
 			modifier = {
-				send_volunteer_divisions_required = -0.15
+				#send_volunteer_divisions_required = -0.15
 				experience_gain_army_factor = 0.15
 				experience_gain_air_factor = 0.15
-				send_volunteer_size = 2
-				air_volunteer_cap = 1
-				send_volunteers_tension = -0.2
+				#send_volunteer_size = 2
+				#air_volunteer_cap = 1
+				#send_volunteers_tension = -0.2
 			}
 		}
 
@@ -1939,12 +1939,12 @@ ideas = {
 			}
 
 			modifier = {
-				send_volunteer_divisions_required = -0.15
+				#send_volunteer_divisions_required = -0.15
 				experience_gain_army_factor = 0.15
 				experience_gain_air_factor = 0.15
-				send_volunteer_size = 2
-				air_volunteer_cap = 1
-				send_volunteers_tension = -0.2
+				#send_volunteer_size = 2
+				#air_volunteer_cap = 1
+				#send_volunteers_tension = -0.2
 			}
 		}
 
@@ -2907,9 +2907,9 @@ ideas = {
 				monthly_population = 0.1
 				defensive_war_stability_factor = 0.1
 				party_popularity_stability_factor = 0.15
-				send_volunteers_tension = -0.5
-				send_volunteer_size = 2
-				air_volunteer_cap = 2
+				#send_volunteers_tension = -0.5
+				#send_volunteer_size = 2
+				#air_volunteer_cap = 2
 			}
 		}
 
@@ -2938,9 +2938,9 @@ ideas = {
 				monthly_population = 0.1
 				defensive_war_stability_factor = 0.1
 				party_popularity_stability_factor = 0.15
-				send_volunteers_tension = -0.5
-				send_volunteer_size = 2
-				air_volunteer_cap = 2
+				#send_volunteers_tension = -0.5
+				#send_volunteer_size = 2
+				#air_volunteer_cap = 2
 			}
 		}
 
@@ -3482,8 +3482,8 @@ ideas = {
 			}
 
 			modifier = {
-				send_volunteer_size = 4
-				air_volunteer_cap = 2
+				#send_volunteer_size = 4
+				#air_volunteer_cap = 2
 				custom_modifier_tooltip = generic_skip_one_line_tt
 				custom_modifier_tooltip = GER_proletarian_legion_ns_tt
 			}

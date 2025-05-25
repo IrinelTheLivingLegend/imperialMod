@@ -590,14 +590,14 @@ ideas = {
 			}
 
 			rule = {
-				can_send_volunteers = yes
+				##can_send_volunteers = yes
 			}
 
 			picture = generic_pp_unity_bonus
 			
 			modifier = {
-				send_volunteer_size = 10
-				send_volunteers_tension = -0.15
+				#send_volunteer_size = 10
+				#send_volunteers_tension = -0.15
 			}
 		}
 
@@ -1607,7 +1607,7 @@ ideas = {
 			
 			modifier = {
 				stability_factor = -0.2
-				#send_volunteer_size = -2
+				##send_volunteer_size = -2
 				max_command_power = -20
 				surrender_limit = -0.2
 				custom_modifier_tooltip = SOV_trotskyit_plot_tt

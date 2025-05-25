@@ -6477,7 +6477,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			set_rule = {
-				can_send_volunteers = yes
+				#can_send_volunteers = yes
 			}
 			add_ideas = r56_CAN_interventionism
 		}
@@ -7606,7 +7606,7 @@ focus_tree = {
 				limit = {
 					NOT = { has_completed_focus = r56_CAN_the_mac_paps }
 				}
-				set_rule = {can_send_volunteers = yes }
+				#set_rule = {#can_send_volunteers = yes }
 			}
 		}
 	}		

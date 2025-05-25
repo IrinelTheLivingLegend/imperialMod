@@ -60,7 +60,7 @@ ideas = {
 			
 			modifier = {
 				join_faction_tension = 1.00
-				send_volunteers_tension = 0.20
+				#send_volunteers_tension = 0.20
 				guarantee_tension = 1.0
 				ai_badass_factor = 0.01    # Will receive 1% of the threat from others
 				ai_get_ally_desire_factor = -100
@@ -362,8 +362,8 @@ ideas = {
 				always = no
 			}		
 			modifier = {
-				send_volunteers_tension = -0.4
-				send_volunteer_divisions_required = -0.75
+				#send_volunteers_tension = -0.4
+				#send_volunteer_divisions_required = -0.75
 			}
 		}
 		EGY_fellah_conscripts = {

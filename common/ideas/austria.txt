@@ -106,13 +106,13 @@ ideas = {
 			}
 
 			rule = {
-				can_send_volunteers = no
+				##can_send_volunteers = no
 			}
 
 			on_remove = {
 				country_lock_all_division_template = no
 				set_rule = {
-					can_send_volunteers = yes
+					##can_send_volunteers = yes
 				}
 			}
 		}
@@ -703,9 +703,9 @@ ideas = {
 			picture = generic_manpower_bonus
 
 			modifier = {
-				send_volunteer_size = 3
-				send_volunteer_divisions_required = -1
-				send_volunteers_tension = -0.5
+				#send_volunteer_size = 3
+				#send_volunteer_divisions_required = -1
+				#send_volunteers_tension = -0.5
 			}
 		}
 
@@ -738,8 +738,8 @@ ideas = {
 			}
 
 			modifier = {
-				send_volunteer_size = 3
-				send_volunteer_divisions_required = -1
+				#send_volunteer_size = 3
+				#send_volunteer_divisions_required = -1
 				lend_lease_tension = -0.30
 			}
 		}

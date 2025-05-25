@@ -41,7 +41,7 @@ ideas = {
 			
 			rule = {
 				can_join_factions = no
-				can_send_volunteers = no
+				##can_send_volunteers = no
 				can_not_declare_war = yes
 			}
 		}

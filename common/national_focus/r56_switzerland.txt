@@ -1238,7 +1238,7 @@ focus_tree = {
 		
 		completion_reward = {
 			add_timed_idea = { idea = communist_influence days = 360 }
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 			swap_ideas = {
 				remove_idea = SWI_flexible_foreign_policy
 				add_idea = SWI_flexible_foreign_policy_2
@@ -1279,7 +1279,7 @@ focus_tree = {
 		
 		completion_reward = {
 			add_timed_idea = { idea = communist_influence days = 360 }
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 			SOV = {
 				add_opinion_modifier = {
 					target = ROOT
@@ -1332,7 +1332,7 @@ focus_tree = {
 		
 		completion_reward = {
 			add_timed_idea = { idea = fascist_influence days = 360 }
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 			swap_ideas = {
 				remove_idea = SWI_flexible_foreign_policy
 				add_idea = SWI_flexible_foreign_policy_2
@@ -1574,7 +1574,7 @@ focus_tree = {
 		
 		completion_reward = {
 			add_timed_idea = { idea = democratic_influence days = 360 }
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 			swap_ideas = {
 				remove_idea = SWI_flexible_foreign_policy
 				add_idea = SWI_flexible_foreign_policy_2

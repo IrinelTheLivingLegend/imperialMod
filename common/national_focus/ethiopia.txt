@@ -6789,7 +6789,7 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = generic_intervention_idea
 			set_rule = { 
-				can_send_volunteers = yes
+				#can_send_volunteers = yes
 			}
 			set_rule = { 
 				can_create_factions = yes
@@ -9195,7 +9195,7 @@ focus_tree = {
 				remove_ideas = neutrality_idea
 			}
 			set_rule = { 
-				can_send_volunteers = yes
+				#can_send_volunteers = yes
 			}
 			set_rule = { 
 				can_create_factions = yes
@@ -9528,7 +9528,7 @@ focus_tree = {
 				}
 			}
 			set_rule = { 
-				can_send_volunteers = yes
+				#can_send_volunteers = yes
 			}
 			set_rule = { 
 				can_create_factions = yes

@@ -977,14 +977,14 @@ focus_tree = {
 
 				add_relation_rule_override = {
 				  	target = SPD
-				  	can_send_volunteers = yes
+				  	#can_send_volunteers = yes
 				}	
 			}
 
 			ELSE = { #just a tooltip for when SPD does not exist, will never happen
 				add_relation_rule_override = {
 				  	target = SPR
-				  	can_send_volunteers = yes
+				  	#can_send_volunteers = yes
 				}
 			}
 
@@ -10271,7 +10271,7 @@ focus_tree = {
 
 			add_relation_rule_override = {
   				target = SPA
-  				can_send_volunteers = yes
+  				#can_send_volunteers = yes
   			}	
 
   			IF = {

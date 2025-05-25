@@ -341,7 +341,7 @@ ideas = {
 			
 			modifier = { 
 				subversive_activites_upkeep = -0.3
-				send_volunteer_divisions_required = -0.5
+				#send_volunteer_divisions_required = -0.5
 			}
 		}
 		MON_soviet_aid = {

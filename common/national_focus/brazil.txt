@@ -5787,7 +5787,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			set_rule = { can_send_volunteers = yes }
+
 
 			add_ideas = BRA_international_brigades
 		

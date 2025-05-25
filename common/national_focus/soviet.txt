@@ -18197,7 +18197,7 @@ IF = {
 			custom_effect_tooltip = SOV_recognized_country_tt
 			set_rule = {
 				can_join_factions = yes
-				can_send_volunteers = yes
+				#can_send_volunteers = yes
 			}
 		}
 	}
@@ -18237,7 +18237,7 @@ IF = {
 			custom_effect_tooltip = SOV_recognized_country_tt
 			set_rule = {
 				can_join_factions = yes
-				can_send_volunteers = yes
+				#can_send_volunteers = yes
 			}
 		}
 		search_filters = {  FOCUS_FILTER_POLITICAL }

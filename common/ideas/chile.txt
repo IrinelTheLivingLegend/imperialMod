@@ -884,9 +884,9 @@ ideas = {
 			
 			modifier = {
 				conscription_factor = 0.05
-				send_volunteer_divisions_required = -0.4
-				send_volunteer_size = 2
-				send_volunteers_tension = -0.3
+				#send_volunteer_divisions_required = -0.4
+				#send_volunteer_size = 2
+				#send_volunteers_tension = -0.3
 				lend_lease_tension = -0.4
 			}
 		}
@@ -903,9 +903,9 @@ ideas = {
 			removal_cost = -1 
 			
 			modifier = {
-				send_volunteer_divisions_required = -0.5
-				send_volunteer_size = 4
-				send_volunteers_tension = -0.2
+				#send_volunteer_divisions_required = -0.5
+				#send_volunteer_size = 4
+				#send_volunteers_tension = -0.2
 				justify_war_goal_time = -0.5
 			}
 		}
@@ -2190,13 +2190,13 @@ ideas = {
 				always = yes
 			}
 			rule = {
-				can_send_volunteers = yes
+				##can_send_volunteers = yes
 			}
 			modifier = {
-				send_volunteer_size = 4
-				send_volunteer_divisions_required = -3
+				#send_volunteer_size = 4
+				#send_volunteer_divisions_required = -3
 				lend_lease_tension = -0.50
-				send_volunteers_tension = -1
+				#send_volunteers_tension = -1
 			}
 		}
 
@@ -2212,18 +2212,18 @@ ideas = {
 				always = yes
 			}
 			rule = {
-				can_send_volunteers = yes
+				##can_send_volunteers = yes
 			}
 			modifier = {
-				send_volunteer_size = 4
-				send_volunteer_divisions_required = -3
+				#send_volunteer_size = 4
+				#send_volunteer_divisions_required = -3
 				lend_lease_tension = -0.50
-				send_volunteers_tension = -1
+				#send_volunteers_tension = -1
 			}
 			on_remove = {
 				remove_relation_rule_override = {
 				    target = CHL
-				   	can_send_volunteers = yes
+				   	##can_send_volunteers = yes
 				}
 				remove_relation_modifier = {
 				    target = CHL

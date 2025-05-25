@@ -1,5 +1,6 @@
 ideas = {
 	country = {
+		
 	}
 	hidden_ideas= {
 		neutral_country={
@@ -25,7 +26,7 @@ ideas = {
 				industrial_factory_donations = -1000
 				military_factory_donations = -1000
 				join_faction_tension = 10
-				send_volunteers_tension = 10
+				#send_volunteers_tension = 10
 				guarantee_tension = 10
 				ai_get_ally_desire_factor = -1000
 				enemy_justify_war_goal_time = 100

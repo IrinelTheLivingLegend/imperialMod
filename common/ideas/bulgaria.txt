@@ -1115,9 +1115,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				send_volunteer_divisions_required = -0.75
-				send_volunteer_size = 3
-				send_volunteers_tension = -1
+				#send_volunteer_divisions_required = -0.75
+				#send_volunteer_size = 3
+				#send_volunteers_tension = -1
 			} 
 		}
 
@@ -1134,9 +1134,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				send_volunteer_divisions_required = -0.75
-				send_volunteer_size = 3
-				send_volunteers_tension = -1
+				#send_volunteer_divisions_required = -0.75
+				#send_volunteer_size = 3
+				#send_volunteers_tension = -1
 			} 
 		}
 
@@ -2389,13 +2389,13 @@ ideas = {
 				picture = generic_volunteer_expedition_bonus
 
 				rule = {
-					can_send_volunteers = yes
+					##can_send_volunteers = yes
 				}
 
 				modifier = {
-					send_volunteers_tension = -0.75
-					send_volunteer_divisions_required = -0.75
-					send_volunteer_size = 3
+					#send_volunteers_tension = -0.75
+					#send_volunteer_divisions_required = -0.75
+					#send_volunteer_size = 3
 				}
 			}
 
@@ -2721,13 +2721,13 @@ ideas = {
 			picture = generic_volunteer_expedition_bonus
 
 			rule = {
-						can_send_volunteers = yes
+						##can_send_volunteers = yes
 					}
 
 			modifier = {
-				send_volunteers_tension = -0.75
-				send_volunteer_divisions_required = -0.75
-				send_volunteer_size = 4
+				#send_volunteers_tension = -0.75
+				#send_volunteer_divisions_required = -0.75
+				#send_volunteer_size = 4
 			}
 		}
 

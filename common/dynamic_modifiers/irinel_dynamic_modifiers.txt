@@ -6,6 +6,18 @@ division_limiter = {
 	land_reinforce_rate = reinforce_rate_debuff
 }
 
+numar_de_voluntari = {
+	name = numar_de_voluntari_text
+	icon =  GFX_idea_por_volunteers_in_the_war2
+
+	enable = { always = yes }
+
+	send_volunteer_size = var_numar_de_voluntari
+	
+	custom_modifier_tooltip = voluntari_permisi_tt
+}
+
+
 assia_system_axis = {
 	name = division_limiter_tt
 	icon = GFX_idea_FRA_matignon_agreements

@@ -739,7 +739,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			set_rule = { can_send_volunteers = yes }
+
 			add_ideas = GEN_Brigades_I
 			add_war_support = 0.05
 		}

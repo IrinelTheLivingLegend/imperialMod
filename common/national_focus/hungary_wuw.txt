@@ -899,7 +899,7 @@ focus_tree = {
 				}
 			}
 
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 
 		}
 	}
@@ -12015,7 +12015,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = HUN_the_rakosi_battalion_idea
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 		}
 	}
 
@@ -16119,7 +16119,7 @@ focus_tree = {
 
 			add_relation_rule_override = {
 			    target = FIN
-			    can_send_volunteers = yes
+			    #can_send_volunteers = yes
 			}
 
 			custom_effect_tooltip = generic_skip_one_line_tt

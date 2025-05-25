@@ -274,15 +274,15 @@ ideas = {
 				always = yes
 			}
 			rule = {
-				can_send_volunteers = yes
+				##can_send_volunteers = yes
 			}
 
 			removal_cost = -1
 			
 			modifier = {
-				send_volunteers_tension = -0.35
-				send_volunteer_divisions_required = -0.5
-				send_volunteer_factor = 0.25
+				#send_volunteers_tension = -0.35
+				#send_volunteer_divisions_required = -0.5
+				#send_volunteer_factor = 0.25
 			}
 		}
 
@@ -298,15 +298,15 @@ ideas = {
 				always = yes
 			}
 			rule = {
-				can_send_volunteers = yes
+				##can_send_volunteers = yes
 			}
 
 			removal_cost = -1
 			
 			modifier = {
-				send_volunteers_tension = -0.4
-				send_volunteer_divisions_required = -0.5
-				send_volunteer_factor = 0.2
+				#send_volunteers_tension = -0.4
+				#send_volunteer_divisions_required = -0.5
+				#send_volunteer_factor = 0.2
 			}
 		}
 

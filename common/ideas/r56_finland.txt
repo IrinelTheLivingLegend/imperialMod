@@ -183,8 +183,8 @@ ideas = {
 			picture = generic_volunteer_expedition_bonus
 
 			modifier = {
-				send_volunteer_divisions_required = -0.75
-				send_volunteers_tension = -0.5
+				#send_volunteer_divisions_required = -0.75
+				#send_volunteers_tension = -0.5
 			}
 		}
 		
@@ -671,8 +671,8 @@ ideas = {
 
 		modifier = {
 			subversive_activites_upkeep = -0.65
-			send_volunteer_size = 1
-			send_volunteer_divisions_required = -1
+			#send_volunteer_size = 1
+			#send_volunteer_divisions_required = -1
 		}
 	}
 		

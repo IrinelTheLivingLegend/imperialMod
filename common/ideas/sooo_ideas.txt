@@ -28,7 +28,7 @@ ideas = {
 			
 			rule = {
 				can_create_factions = yes
-				can_send_volunteers = yes
+				##can_send_volunteers = yes
 			}
 			modifier = {
 				join_faction_tension = -0.999

@@ -141,10 +141,10 @@
 #		custom_effect_tooltip = NORDIC_against_tyranny_TT
 #		if = {
 #			limit = {
-#				NOT = { has_rule = can_send_volunteers } 
+#				NOT = { has_rule = #can_send_volunteers } 
 #			}
 #			set_rule = {
-#				can_send_volunteers = yes 
+#				#can_send_volunteers = yes 
 #			}
 #		}
 #		every_other_country = {
@@ -230,10 +230,10 @@
 #		custom_effect_tooltip = NORDIC_court_foreign_power_TT
 #		if = {
 #			limit = {
-#				NOT = { has_rule = can_send_volunteers } 
+#				NOT = { has_rule = #can_send_volunteers } 
 #			}
 #			set_rule = {
-#				can_send_volunteers = yes 
+#				#can_send_volunteers = yes 
 #			} 
 #		}	
 #	}

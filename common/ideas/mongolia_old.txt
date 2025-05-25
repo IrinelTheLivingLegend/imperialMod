@@ -1385,8 +1385,8 @@ ideas = {
 			picture = generic_volunteer_expedition_bonus
 			
 			modifier = {
-				send_volunteer_divisions_required = -0.8
-				send_volunteer_size = 2
+				#send_volunteer_divisions_required = -0.8
+				#send_volunteer_size = 2
 			}
 		}
 
@@ -2103,8 +2103,8 @@ ideas = {
 			picture = generic_volunteer_expedition_bonus
 			
 			modifier = {
-				send_volunteer_divisions_required = -0.95
-				send_volunteer_size = 5
+				#send_volunteer_divisions_required = -0.95
+				#send_volunteer_size = 5
 			}
 		}
 		
@@ -2390,7 +2390,7 @@ ideas = {
 			}
 
 			modifier = {
-				send_volunteers_tension = 0.5
+				#send_volunteers_tension = 0.5
 				join_faction_tension = 0.8
 				guarantee_tension = 1
 				political_power_factor = 0.15
@@ -2619,9 +2619,9 @@ ideas = {
 
 			modifier = {
 				cavalry_attack_factor = 0.05
-				send_volunteers_tension = -1
-				send_volunteer_divisions_required = -1
-				send_volunteer_size = 5
+				#send_volunteers_tension = -1
+				#send_volunteer_divisions_required = -1
+				#send_volunteer_size = 5
 			}
 		}
 

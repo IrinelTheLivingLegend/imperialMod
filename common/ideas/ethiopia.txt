@@ -483,14 +483,14 @@ ideas = {
 #				always = no
 #			}
 #			rule = {
-#				can_send_volunteers = yes
+#				##can_send_volunteers = yes
 #			}
 #
 #			removal_cost = -1
 #			
 #			modifier = {
-#				send_volunteers_tension = -0.5
-#				send_volunteer_divisions_required = -0.75
+#				#send_volunteers_tension = -0.5
+#				#send_volunteer_divisions_required = -0.75
 #			}
 #		}
 
@@ -655,8 +655,8 @@ ideas = {
 			}
 
 			modifier = {
-				send_volunteer_size = 3
-				send_volunteer_divisions_required = -1
+				#send_volunteer_size = 3
+				#send_volunteer_divisions_required = -1
 				lend_lease_tension = -0.30
 			}
 		}
@@ -673,11 +673,11 @@ ideas = {
 				always = yes
 			}
 			rule = {
-				can_send_volunteers = yes
+				##can_send_volunteers = yes
 			}
 			modifier = {
-				send_volunteer_size = 3
-				send_volunteer_divisions_required = -1
+				#send_volunteer_size = 3
+				#send_volunteer_divisions_required = -1
 				lend_lease_tension = -0.30
 			}
 		}
@@ -763,15 +763,15 @@ ideas = {
 				always = yes
 			}
 			rule = {
-				can_send_volunteers = yes
+				##can_send_volunteers = yes
 			}
 
 			removal_cost = -1
 			
 			modifier = {
-				send_volunteers_tension = -0.35
-				send_volunteer_divisions_required = -0.5
-				send_volunteer_factor = 0.25
+				#send_volunteers_tension = -0.35
+				#send_volunteer_divisions_required = -0.5
+				#send_volunteer_factor = 0.25
 			}
 		}
 		ETH_regional_supply_depts_idea = {

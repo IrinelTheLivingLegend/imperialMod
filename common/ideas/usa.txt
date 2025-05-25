@@ -775,7 +775,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				send_volunteers_tension = -0.35
+				#send_volunteers_tension = -0.35
 				guarantee_tension = -0.2
 				mobilization_laws_cost_factor = 1
 				economy_cost_factor = 1
@@ -795,7 +795,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				send_volunteers_tension = 0.5
+				#send_volunteers_tension = 0.5
 				guarantee_tension = 0.5
 			}
 		}
@@ -815,7 +815,7 @@ ideas = {
 			
 			modifier = {
 				lend_lease_tension = -1
-				send_volunteers_tension = -0.35
+				#send_volunteers_tension = -0.35
 				guarantee_tension = -0.2
 				mobilization_laws_cost_factor = 1
 				economy_cost_factor = 1
@@ -836,7 +836,7 @@ ideas = {
 			
 			modifier = {
 				lend_lease_tension = -1
-				send_volunteers_tension = 0.5
+				#send_volunteers_tension = 0.5
 				guarantee_tension = 0.5
 			}
 		}
@@ -1460,8 +1460,8 @@ ideas = {
 			picture = generic_volunteer_expedition_bonus
 			
 			modifier = {
-				send_volunteers_tension = -0.20
-				send_volunteer_divisions_required = -0.25
+				#send_volunteers_tension = -0.20
+				#send_volunteer_divisions_required = -0.25
 			}
 		}
 

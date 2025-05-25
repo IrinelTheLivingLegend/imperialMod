@@ -14383,13 +14383,7 @@ focus_tree = {
 				}
 				set_rule = { can_declare_war_on_same_ideology = yes }
 			}
-			if = {
-				limit = {
-					NOT = { has_rule = can_send_volunteers }
-				}
-				set_rule = { can_send_volunteers = yes }
-			}
-		}
+			
 	}
 
 	focus = {
@@ -16969,13 +16963,7 @@ focus_tree = {
 				}
 				set_rule = { can_declare_war_on_same_ideology = yes }
 			}
-			if = {
-				limit = {
-					NOT = { has_rule = can_send_volunteers }
-				}
-				set_rule = { can_send_volunteers = yes }
-			}
-		}
+			
 	}
 	
 	focus = {
@@ -22428,7 +22416,7 @@ focus_tree = {
 				limit = {
 					NOT = { has_rule = can_only_justify_war_on_threat_country }
 				}
-				set_rule = { can_send_volunteers = yes }
+				#set_rule = { #can_send_volunteers = yes }
 			}
 		}
 	}

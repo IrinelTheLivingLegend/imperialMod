@@ -1974,11 +1974,11 @@ focus_tree = {
 			if = {
 				limit = {
 					NOT = {
-						has_rule = can_send_volunteers
+						has_rule = #can_send_volunteers
 					}
 				}
 				set_rule = {
-					can_send_volunteers = yes
+					#can_send_volunteers = yes
 				}
 			}
 		}

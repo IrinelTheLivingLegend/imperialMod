@@ -1459,9 +1459,9 @@ ideas = {
 			}
 			picture = generic_volunteer_expedition_bonus
 			modifier = {
-				air_volunteer_cap = 1
-				send_volunteer_size = 1
-				send_volunteers_tension = -0.8
+				#air_volunteer_cap = 1
+				#send_volunteer_size = 1
+				#send_volunteers_tension = -0.8
 			}
 		}
 
@@ -1471,9 +1471,9 @@ ideas = {
 			}
 			picture = generic_volunteer_expedition_bonus
 			modifier = {
-				air_volunteer_cap = 2
-				send_volunteer_size = 4
-				send_volunteers_tension = -0.8
+				#air_volunteer_cap = 2
+				#send_volunteer_size = 4
+				#send_volunteers_tension = -0.8
 			}
 		}
 

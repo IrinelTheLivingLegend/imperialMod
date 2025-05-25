@@ -148,8 +148,8 @@ ideas = {
 			picture = generic_intel_bonus
 			
 			modifier = {
-			send_volunteer_divisions_required = -0.75
-			send_volunteer_size = 1
+			#send_volunteer_divisions_required = -0.75
+			#send_volunteer_size = 1
 			}
 		}
 		bra_ana_mineira_idea = {
@@ -732,9 +732,9 @@ ideas = {
 			}
 
 			modifier = {
-				send_volunteer_divisions_required = -0.5
-				send_volunteers_tension = -0.5
-				send_volunteer_factor = 2
+				#send_volunteer_divisions_required = -0.5
+				#send_volunteers_tension = -0.5
+				#send_volunteer_factor = 2
 			}
 		}
 		

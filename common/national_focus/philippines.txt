@@ -2414,7 +2414,7 @@ focus_tree = {
 				}
 				add_relation_rule_override = {
 					target = SPA
-					can_send_volunteers = yes 
+					#can_send_volunteers = yes 
 				}
 				SPA = {
 					add_equipment_to_stockpile = {
@@ -2427,7 +2427,7 @@ focus_tree = {
 			else = {
 				add_relation_rule_override = {
 					target = SPD
-					can_send_volunteers = yes 
+					#can_send_volunteers = yes 
 				}
 				SPD = {
 					add_equipment_to_stockpile = {

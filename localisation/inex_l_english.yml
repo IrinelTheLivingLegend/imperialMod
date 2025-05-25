@@ -73,3 +73,7 @@ RULE_OPTION_NO_ASIA_MAP_DESC:0 ""
  NOO:0 ""
  NOO_DEF:0 ""
  NOO_ADJ:0 ""
+
+numar_de_voluntari:0 "Spanish Volunteers Cap"
+
+voluntari_permisi_tt:0 "[SOV.GetFlag]§YRussia§! can send to: [SPD.GetFlag]§YRepublican Spain§!\n[GER.GetFlag]§YGermany§! can send to: §H[SPR.GetFlag]§!§YNationalist Spain§!\n[ITA.GetFlag]§YItaly§! can send to: §H[SPR.GetFlag]§!§YNationalist Spain§!"

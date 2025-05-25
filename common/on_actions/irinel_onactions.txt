@@ -1,6 +1,48 @@
 on_actions = {
     on_startup = {
         effect = {
+            GER = {
+                add_relation_rule_override = {
+                    target = SPR
+                    can_send_volunteers = yes
+                }
+                add_dynamic_modifier = { modifier = numar_de_voluntari }
+                set_variable = {
+                    var_numar_de_voluntari = 3
+                }
+                
+            }
+            ITA = {
+                add_relation_rule_override = {
+                    target = SPR
+                    can_send_volunteers = yes
+                }
+                add_dynamic_modifier = { modifier = numar_de_voluntari }
+                set_variable = {
+                    var_numar_de_voluntari = 3
+                }
+            }
+            SOV = {
+                add_relation_rule_override = {
+                    target = D01
+                    can_send_volunteers = yes
+                }
+                add_relation_rule_override = {
+                    target = D02
+                    can_send_volunteers = yes
+                }
+                add_relation_rule_override = {
+                    target = D03
+                    can_send_volunteers = yes
+                }
+                
+                add_dynamic_modifier = { modifier = numar_de_voluntari }
+                set_variable = {
+                    var_numar_de_voluntari = 5
+                }
+            }
+
+
             if = {
                 limit = {
                     has_game_rule = {
@@ -314,4 +356,6 @@ on_actions = {
             
         }
     }
+
+
 }

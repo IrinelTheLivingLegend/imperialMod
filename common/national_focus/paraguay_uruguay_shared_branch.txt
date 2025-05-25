@@ -465,7 +465,7 @@
 		search_filters = { FOCUS_FILTER_HISTORICAL }
 
 		completion_reward = {
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 			add_ideas = idea_GUAY_volunteers
 
 		}

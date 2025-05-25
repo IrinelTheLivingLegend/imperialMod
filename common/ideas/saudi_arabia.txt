@@ -235,8 +235,8 @@ ideas = {
 		
 			modifier = {
 			    lend_lease_tension = -0.40
-				send_volunteers_tension = -0.40
-				send_volunteer_size = 5
+				#send_volunteers_tension = -0.40
+				#send_volunteer_size = 5
 			}
 		}
 		

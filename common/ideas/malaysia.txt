@@ -1094,8 +1094,8 @@ ideas = {
 
 			modifier = {
 				
-				send_volunteer_size = 5
-				send_volunteer_divisions_required = -0.25
+				#send_volunteer_size = 5
+				#send_volunteer_divisions_required = -0.25
 				non_core_manpower = 0.1
 
 			}									

@@ -67,7 +67,7 @@ ideas = {
 				generate_wargoal_tension = 0.15
 				production_speed_arms_factory_factor = 0.2
 				military_leader_cost_factor = -0.15
-				send_volunteer_divisions_required = -0.30
+				#send_volunteer_divisions_required = -0.30
 				land_doctrine_cost_factor = -0.05
 				naval_doctrine_cost_factor = -0.05
 			}

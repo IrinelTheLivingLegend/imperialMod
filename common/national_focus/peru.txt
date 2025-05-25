@@ -5229,7 +5229,7 @@ focus = {
 		}
 
 		completion_reward = {
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 			add_timed_idea = {
 				idea = r56_CHL_spanish_civil_war_involvement
 				days = 1095
@@ -7996,7 +7996,7 @@ focus = {
 	}
 
 	completion_reward = {
-		set_rule = { can_send_volunteers = yes }
+		#set_rule = { #can_send_volunteers = yes }
 		add_timed_idea = {
 			idea = r56_CHL_spanish_civil_war_involvement
 			days = 1095
@@ -11741,7 +11741,7 @@ focus = {
 	completion_reward = {
 		add_war_support = 0.05
 		set_rule = {
-			can_send_volunteers = yes
+			#can_send_volunteers = yes
 		}
 		add_ideas = GEN_Brigades_I
 	}

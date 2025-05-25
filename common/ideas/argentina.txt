@@ -1118,9 +1118,9 @@ ideas = {
 			removal_cost = -1
 			picture = SPR_international_brigades
 			modifier = {
-				send_volunteer_divisions_required = -0.5
-				send_volunteer_size = 3
-				send_volunteers_tension = -0.2
+				#send_volunteer_divisions_required = -0.5
+				#send_volunteer_size = 3
+				#send_volunteers_tension = -0.2
 			}
 		}
 

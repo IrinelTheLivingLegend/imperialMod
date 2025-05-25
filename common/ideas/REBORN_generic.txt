@@ -559,7 +559,7 @@ ideas = {
 				#generate_wargoal_tension = 1.00
 				join_faction_tension = 1.00
 				#lend_lease_tension = 0.50
-				send_volunteers_tension = 0.20
+				#send_volunteers_tension = 0.20
 				guarantee_tension = 1.0
 				production_speed_bunker_factor = 0.1
 				production_speed_anti_air_building_factor = 0.1
@@ -605,7 +605,7 @@ ideas = {
 			picture = generic_volunteer_expedition_bonus
 
 			modifier = {
-				send_volunteer_divisions_required = -0.25
+				#send_volunteer_divisions_required = -0.25
 			}
 		}
 
@@ -623,7 +623,7 @@ ideas = {
 			picture = generic_volunteer_expedition_bonus
 			
 			modifier = {
-				send_volunteer_divisions_required = -0.5
+				#send_volunteer_divisions_required = -0.5
 			}
 		}
 
@@ -1421,7 +1421,7 @@ ideas = {
 				enemy_justify_war_goal_time = 0.25
 				generate_wargoal_tension = 0.50
 				join_faction_tension = 1.0
-				send_volunteers_tension = 0.20
+				#send_volunteers_tension = 0.20
 				guarantee_tension = 1.0
 				ai_badass_factor = 0.01
 				ai_get_ally_desire_factor = -100
@@ -1448,7 +1448,7 @@ ideas = {
 				operation_cost = -0.15
 				operation_outcome = 0.15
 				lend_lease_tension = -0.50
-				send_volunteers_tension = -0.50
+				#send_volunteers_tension = -0.50
 				guarantee_tension = -0.10
 				ai_get_ally_desire_factor = 25
 			}
@@ -1469,7 +1469,7 @@ ideas = {
 			picture = eng_imperial_conscription
 			
 			modifier = {			
-				send_volunteer_divisions_required = -0.75
+				#send_volunteer_divisions_required = -0.75
 				acclimatization_cold_climate_gain_factor = 0.10
 				acclimatization_hot_climate_gain_factor = 0.10
 			}
@@ -1490,8 +1490,8 @@ ideas = {
 			picture = generic_volunteer_expedition_bonus
 			
 			modifier = {
-				send_volunteer_size = 3	
-				air_volunteer_cap = 25
+				#send_volunteer_size = 3	
+				#air_volunteer_cap = 25
 			}
 		}
 

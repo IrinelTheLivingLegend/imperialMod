@@ -428,7 +428,7 @@
 				limit = { has_idea = neutrality_idea }
 				remove_ideas = neutrality_idea
 			}	
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 			add_ideas = BEL_volunteer_corps
 		}
 	}
@@ -2327,7 +2327,7 @@
 			}
 	
 			completion_reward = {
-				set_rule = { can_send_volunteers = yes }
+				#set_rule = { #can_send_volunteers = yes }
 				add_timed_idea = {
 					idea = r56_CHL_spanish_civil_war_involvement
 					days = 1095

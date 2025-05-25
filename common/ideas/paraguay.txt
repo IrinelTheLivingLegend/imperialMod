@@ -220,7 +220,7 @@ ideas = {
 
 			modifier = {
 				army_org_factor = -0.15
-				send_volunteer_factor = -0.38
+				#send_volunteer_factor = -0.38
 				industrial_capacity_factory = -0.06
 				training_time_factor = 0.15
 				land_doctrine_cost_factor = 0.03

@@ -252,6 +252,7 @@ country_event = {
 #  # #  #  #   #  #  # #  # #  # #    #    #  #      #   #   #   #   #  #  #  
 #  # #  #  #  ###  ##  #  # #  # ### ### ##   #      ### #   #   ###  ##   #  
 
+
 		if = {
 			limit = {
 				has_completed_focus = SPA_a_great_spain

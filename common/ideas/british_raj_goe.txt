@@ -332,9 +332,9 @@ ideas = {
 				resistance_activity = -0.3
 				resistance_growth = -0.15
 				resistance_damage_to_garrison = -0.25
-				send_volunteer_size = 6
-				send_volunteers_tension = -1
-				send_volunteer_divisions_required = -0.75 
+				#send_volunteer_size = 6
+				#send_volunteers_tension = -1
+				#send_volunteer_divisions_required = -0.75 
 			}
 		}
 
@@ -351,9 +351,9 @@ ideas = {
 				resistance_activity = -0.3
 				resistance_growth = -0.15
 				resistance_damage_to_garrison = -0.25
-				send_volunteer_size = 6
-				send_volunteers_tension = -1
-				send_volunteer_divisions_required = -0.75
+				#send_volunteer_size = 6
+				#send_volunteers_tension = -1
+				#send_volunteer_divisions_required = -0.75
 
 				army_leader_cost_factor = -0.4
 				army_leader_start_planning_level = 1
@@ -376,9 +376,9 @@ ideas = {
 				resistance_activity = -0.3
 				resistance_growth = -0.15
 				resistance_damage_to_garrison = -0.25
-				send_volunteer_size = 6
-				send_volunteers_tension = -1
-				send_volunteer_divisions_required = -0.75 
+				#send_volunteer_size = 6
+				#send_volunteers_tension = -1
+				#send_volunteer_divisions_required = -0.75 
 
 
 				###2
@@ -1136,14 +1136,14 @@ ideas = {
 			modifier = {
 				acclimatization_hot_climate_gain_factor = 0.35
 				attrition = -0.04
-				send_volunteers_tension = -1
-				send_volunteer_size = 2
-				send_volunteer_divisions_required = -0.35
+				#send_volunteers_tension = -1
+				#send_volunteer_size = 2
+				#send_volunteer_divisions_required = -0.35
 			}
 
 			on_add = {
 				set_rule = {
-					can_send_volunteers = yes
+					##can_send_volunteers = yes
 				}
 			}
 		}
@@ -1879,15 +1879,15 @@ ideas = {
 			picture = RAJ_kingmaker
 			on_add = {
 				set_rule = { 
-					can_send_volunteers = yes # rule to use, e.g.  can_not_declare_war = yes
+					##can_send_volunteers = yes # rule to use, e.g.  can_not_declare_war = yes
 				}
 			}
 			modifier = {
 				special_forces_cap = 0.3
-				air_volunteer_cap = 3
-				send_volunteer_divisions_required = -0.5
-				send_volunteer_size = 6
-				send_volunteers_tension = -1
+				#air_volunteer_cap = 3
+				#send_volunteer_divisions_required = -0.5
+				#send_volunteer_size = 6
+				#send_volunteers_tension = -1
 				embargo_threshold_factor = -5
 
 			}

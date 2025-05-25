@@ -89,7 +89,7 @@ ideas = {
 
 			modifier = {
 				join_faction_tension = 1.00
-				send_volunteers_tension = 0.20
+				#send_volunteers_tension = 0.20
 				guarantee_tension = 1.0
 				ai_badass_factor = 0.01    # Will receive 1% of the threat from others
 				ai_focus_defense_factor = 0.5
@@ -116,7 +116,7 @@ ideas = {
 				guarantee_cost = 1
 				lend_lease_tension = -0.5
 				join_faction_tension = 1.00
-				send_volunteers_tension = 0.20
+				#send_volunteers_tension = 0.20
 				guarantee_tension = 1.0
 				ai_badass_factor = 0.01    # Will receive 1% of the threat from others
 				ai_focus_defense_factor = 0.5
@@ -412,8 +412,8 @@ ideas = {
 			picture = tur_sub_zero_survival_training
 
 			modifier = {
-				send_volunteer_divisions_required = -0.5
-				send_volunteer_size = 3
+				#send_volunteer_divisions_required = -0.5
+				#send_volunteer_size = 3
 			}
 		}
 
@@ -465,8 +465,8 @@ ideas = {
 			picture = generic_infantry_bonus
 
 			modifier = {
-				send_volunteer_divisions_required = -0.75
-				send_volunteer_size = 5
+				#send_volunteer_divisions_required = -0.75
+				#send_volunteer_size = 5
 			}
 		}
 		SWE_hemvarnet_idea = {
@@ -1058,8 +1058,8 @@ ideas = {
 				always = no
 			}
 			modifier = {
-				send_volunteer_divisions_required = -0.60
-				send_volunteer_size = 2
+				#send_volunteer_divisions_required = -0.60
+				#send_volunteer_size = 2
 			}
 		}
 		SWE_svenska_jagare_idea = {
@@ -1408,10 +1408,10 @@ ideas = {
 			picture = generic_volunteer_expedition_bonus
 
 			modifier = {
-				send_volunteer_divisions_required = -0.5
-				send_volunteer_size = 6
+				#send_volunteer_divisions_required = -0.5
+				#send_volunteer_size = 6
 				acclimatization_cold_climate_gain_factor = 0.1
-				send_volunteers_tension = -0.2
+				#send_volunteers_tension = -0.2
 			}
 		}
 		SWE_centralized_industry = {

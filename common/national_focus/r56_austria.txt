@@ -7507,7 +7507,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			set_rule = {
-				can_send_volunteers = yes
+				#can_send_volunteers = yes
 			}
 			add_ideas = {
 				FRA_intervention_idea

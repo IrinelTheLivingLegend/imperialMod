@@ -5125,7 +5125,6 @@ focus_tree = {
 			custom_effect_tooltip = CHL_union_of_american_indigenous_peoples_tt
 
 			hidden_effect = {
-				set_rule = { can_send_volunteers = yes }
 				set_rule = { can_create_factions = yes }
 				set_rule = { can_join_factions = no }
 			}
@@ -5708,12 +5707,11 @@ focus_tree = {
 			}
 			add_relation_rule_override = {
 				target = SPD
-				can_send_volunteers = yes
+				#can_send_volunteers = yes
 			}
 
 			hidden_effect = {
 				ROOT = {
-					set_rule = { can_send_volunteers = yes }
 					add_timed_idea = {
 						idea = CHL_aid_SPR
 						days = 730
@@ -10834,7 +10832,7 @@ focus_tree = {
 			custom_effect_tooltip = r56_newline
 
 			set_rule = { 
-				can_send_volunteers = yes
+				#can_send_volunteers = yes
 			} 
 
 			set_rule = { 
@@ -11846,7 +11844,7 @@ focus_tree = {
 
 			#hidden_effect = {
 				set_rule = {
-					can_send_volunteers = yes
+					#can_send_volunteers = yes
 				}
 			#}
 

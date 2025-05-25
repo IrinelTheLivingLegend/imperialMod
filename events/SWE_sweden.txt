@@ -789,7 +789,7 @@ country_event = {
 			keep_political_party_members = yes
 		}			
 		hidden_effect = {
-			set_rule = { can_send_volunteers = no }
+			#set_rule = { #can_send_volunteers = no }
 			division_template = {
 				name = "Worker Militia"
 				division_names_group = SWE_MIL_01

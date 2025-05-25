@@ -1162,7 +1162,6 @@ focus_tree = {
 			}
 			add_relation_rule_override = {
 				target = SPA
-				can_send_volunteers = yes 
 			}
 		}
 	}
@@ -1575,7 +1574,6 @@ focus_tree = {
 			create_faction = ARG_nationalist_faction	
 
 			hidden_effect = {
-				set_rule = { can_send_volunteers = yes }
 				set_rule = { can_create_factions = yes }
 				set_rule = { can_join_factions = no }
 			}
@@ -3266,7 +3264,6 @@ focus_tree = {
 			create_faction = ARG_democratic_faction	
 
 			hidden_effect = {
-				set_rule = { can_send_volunteers = yes }
 				set_rule = { can_create_factions = yes }
 				set_rule = { can_join_factions = no }
 			}
@@ -3972,7 +3969,6 @@ focus_tree = {
 			}
 			add_relation_rule_override = {
 				target = SPD
-				can_send_volunteers = yes 
 			}
 		}
 	}
@@ -4253,7 +4249,6 @@ focus_tree = {
 		completion_reward = { 
 			add_ideas = ARG_socialist_volunteers_idea
 
-			set_rule = { can_send_volunteers = yes }
 		}
 	}
 

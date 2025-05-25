@@ -1376,9 +1376,9 @@ ideas = {
 				conscription = 0.02
 				army_org_factor = 0.05
 				army_attack_factor = 0.05
-				send_volunteer_divisions_required = -0.5
-				send_volunteer_factor = 0.05
-				send_volunteers_tension = -0.5
+				#send_volunteer_divisions_required = -0.5
+				#send_volunteer_factor = 0.05
+				#send_volunteers_tension = -0.5
 			}
 				
 		}
@@ -1499,8 +1499,8 @@ ideas = {
 			removal_cost = -1
 	
 			modifier = {
-				send_volunteer_divisions_required = -0.5
-				send_volunteer_factor = 0.5
+				#send_volunteer_divisions_required = -0.5
+				#send_volunteer_factor = 0.5
 			}
 				
 		}
@@ -1952,7 +1952,7 @@ ideas = {
 			modifier = {
 				weekly_manpower = 150
 				army_attack_factor = 0.05
-				send_volunteer_divisions_required = -0.5
+				#send_volunteer_divisions_required = -0.5
 			}
 
 		}

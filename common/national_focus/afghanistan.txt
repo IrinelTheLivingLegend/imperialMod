@@ -7917,7 +7917,7 @@ focus_tree = {
 				can_create_factions = yes
 			}
 			set_rule = {
-				can_send_volunteers = yes
+				#can_send_volunteers = yes
 			}
 		}
 	}

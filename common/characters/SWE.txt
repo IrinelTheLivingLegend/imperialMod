@@ -2619,7 +2619,7 @@ characters={
 			on_add = {
 				SWE = {
 					set_rule = { 
-						can_send_volunteers = yes 
+						#can_send_volunteers = yes 
 					}
 				}
 

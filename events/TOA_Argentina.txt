@@ -1551,7 +1551,7 @@ country_event = {
 		}
 		add_relation_rule_override = {
 				target = ARG
-				can_send_volunteers = yes 
+				#can_send_volunteers = yes 
 			}
 			ARG = {
 			country_event = {

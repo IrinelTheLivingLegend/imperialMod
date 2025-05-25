@@ -1240,7 +1240,7 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = HOA_volunteers_idea
 			set_rule = {
-				can_send_volunteers = yes 
+				#can_send_volunteers = yes 
 			}
 		}
 	}

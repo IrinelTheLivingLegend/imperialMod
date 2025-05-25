@@ -2108,7 +2108,6 @@ focus_tree = {
 
 		completion_reward = {
 			#custom_effect_tooltip =	new_rule
-			set_rule = { can_send_volunteers = yes }
 			custom_effect_tooltip = new_decision
 			CZE = { country_event = { id = czke.300 days = 1 } }
 			custom_effect_tooltip = decision_reward

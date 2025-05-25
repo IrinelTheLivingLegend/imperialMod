@@ -1477,7 +1477,7 @@ focus_tree = {
 			}
 			add_manpower = -1000
 			
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 		}
 		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_SPA_CIVIL_WAR FOCUS_FILTER_MILITARY_EQUIPMENT }
 	}	

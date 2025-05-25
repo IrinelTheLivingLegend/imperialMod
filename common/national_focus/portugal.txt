@@ -2980,7 +2980,7 @@ focus_tree = {
 				}
 			}
 			custom_effect_tooltip = POR_support_the_spanish_republic_effect_tooltip_tt
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 		}
 		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_SPA_CIVIL_WAR }
 	}
@@ -4668,7 +4668,7 @@ focus_tree = {
 			    amount = 2000
 			    target = SPA
 			}
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_SPA_CIVIL_WAR }
 	}
@@ -6459,7 +6459,7 @@ focus_tree = {
 			    amount = 2000
 			    target = SPB
 			}
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}

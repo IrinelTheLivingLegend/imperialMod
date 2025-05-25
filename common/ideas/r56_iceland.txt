@@ -158,7 +158,7 @@ ideas = {
 			
 			modifier = {
 				join_faction_tension = 1.00
-				send_volunteers_tension = 0.50
+				#send_volunteers_tension = 0.50
 				guarantee_tension = 1.00
 				justify_war_goal_time = 0.75
 				ai_badass_factor = 0.01
@@ -186,7 +186,7 @@ ideas = {
 			
 			modifier = {	
 				join_faction_tension = 2.00
-				send_volunteers_tension = 2.00
+				#send_volunteers_tension = 2.00
 				guarantee_tension = 2.00
 				justify_war_goal_time = 1.5
 				ai_badass_factor = 1.00

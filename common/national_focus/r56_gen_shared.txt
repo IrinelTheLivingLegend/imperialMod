@@ -5149,7 +5149,7 @@
 				limit = { has_idea = neutrality_idea }
 				remove_ideas = neutrality_idea
 			}
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 			#AI Stuff
 			if = {
 				limit = {

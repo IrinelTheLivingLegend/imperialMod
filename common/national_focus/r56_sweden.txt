@@ -355,7 +355,7 @@ focus_tree = {
 				}
 			}
 			set_rule = {
-				can_send_volunteers = yes
+				#can_send_volunteers = yes
 			}
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_HISTORICAL }
@@ -3162,7 +3162,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = SWE_swedish_volunteers_idea
-			set_rule = { can_send_volunteers = yes }
+			#set_rule = { #can_send_volunteers = yes }
 		}
 	}
 	focus = {
@@ -3842,7 +3842,7 @@ focus_tree = {
 
         completion_reward = {
 			add_ideas = SWE_secure_revolution_home
-			set_rule = { can_send_volunteers = no }
+			#set_rule = { #can_send_volunteers = no }
             custom_effect_tooltip = SWE_red_revolution_swap.tt
             custom_effect_tooltip = SWE_red_revolution_tip.tt
 			hidden_effect = {
@@ -4004,7 +4004,7 @@ focus_tree = {
             }
 
             add_ideas = SWE_secure_revolution_home
-			set_rule = { can_send_volunteers = no }
+			#set_rule = { #can_send_volunteers = no }
         }
     }
 
@@ -4308,7 +4308,7 @@ focus_tree = {
 			add_ideas =	SOV_a_gun_in_every_hand_idea
 			remove_ideas = SWE_secure_revolution_home
 			set_rule = {
-				can_send_volunteers = yes
+				#can_send_volunteers = yes
 			}
 		}
     }	

@@ -668,7 +668,7 @@ AUS_supporting_italy_in_ethiopia_category = {
 
 			add_relation_rule_override = {
   				target = ITA
-  				can_send_volunteers = yes
+  				#can_send_volunteers = yes
   			}	
 
   			IF = {
