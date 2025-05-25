@@ -667,7 +667,7 @@ NDefines.NMilitary.EXPERIENCE_LOSS_FACTOR = 1.0              -- vanilla 1.0  | p
 
 NDefines.NMilitary.BASE_FORT_PENALTY = -0.2				-- fort penalty
 
-NDefines.NMilitary.ARMY_INITIATIVE_REINFORCE_FACTOR = 1.0 -- vanilla 0.25
+NDefines.NMilitary.ARMY_INITIATIVE_REINFORCE_FACTOR = 0.2 -- vanilla 0.25
 NDefines.NMilitary.REINFORCE_CHANCE = 0 --haha lol -- vanilla 0.02
 
 NDefines.NProduction.EQUIPMENT_BASE_LEND_LEASE_WEIGHT = 3.0 -- Base equipment lend lease weight
@@ -959,3 +959,5 @@ NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_DISRUPTION_MIN_DAMAGE_FACTOR = 0
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_MAX_DISRUPTION_DAMAGE_TO_CONSIDER = 0
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_DIRECT_DISRUPTION_DAMAGE_FACTOR = 0
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_TRUCK_MAX_FACTOR = 0
+
+NDefines.NMilitary.PLAN_SPREAD_ATTACK_WEIGHT = 1.0 -- 12.0 vanilla | AI should concentrate forces more a bit experimental. Increased from 4.0 to combat issues with AI death stacks - SpicyAlfredo

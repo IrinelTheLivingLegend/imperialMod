@@ -1,5 +1,17 @@
 ideas = {
 	country = {
+		allies_rafinery_debuff = {
+
+			picture = GFX_idea_AFG_electrification
+
+			allowed = {
+				always = yes
+			}
+
+			modifier = {
+				production_speed_synthetic_refinery_factor = -1.0
+			}
+		}
 		
 	}
 	hidden_ideas= {

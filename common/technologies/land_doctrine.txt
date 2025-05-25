@@ -104,7 +104,16 @@ technologies = {
 	
 	elastic_defence = {
 
-		land_reinforce_rate = 0.02
+		infantry = {
+			initiative = 0.01
+		}
+		mechanized = {
+			initiative = 0.01
+		}	
+		motorized = {
+			initiative = 0.01
+		}
+		
 		xp_research_type = army
 		xp_unlock_cost = 100
 
@@ -1318,7 +1327,7 @@ technologies = {
 		}
 
 		anti_tank_brigade = {
-			need = { artillery_equipment = -3}
+			need = { anti_tank_equipment = -3}
 		}
 
 
@@ -1426,9 +1435,10 @@ technologies = {
 	tactical_control = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-		land_reinforce_rate = 0.03
 
-		
+		anti_tank_brigade = {
+			initiative = 0.01
+		}
 	
 		enable_tactic = tactic_tactical_withdrawal
 		
@@ -1586,7 +1596,7 @@ technologies = {
 	
 	forward_observers = {
 		artillery_brigade = {
-			initiative = 0.005
+			initiative = 0.01
 		}
 		intel_from_combat_factor = 0.3
 		category_recon = {
@@ -2111,9 +2121,8 @@ technologies = {
 		xp_unlock_cost = 100
 
 		category_light_infantry = {
-			breakthrough = 0.5
+			breakthrough = 2.0
 		}
-		
 		
 		enable_tactic = tactic_breakthrough
 	
@@ -2214,7 +2223,9 @@ technologies = {
 	c3i_theory = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-		land_reinforce_rate = 0.02
+		infantry = {
+			initiative = 0.01
+		}	
 		category_all_infantry = {
 			max_organisation = 5
 		}
@@ -2533,7 +2544,9 @@ technologies = {
 	infiltration_in_depth = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-		land_reinforce_rate = 0.02
+		infantry = {
+			initiative = 0.01
+		}
 		intel_from_combat_factor = 0.2
 		
 		category_recon = { 
@@ -2851,8 +2864,7 @@ technologies = {
 	operational_concentration = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-		max_planning = 0.10
-		land_reinforce_rate = 0.02
+		max_planning = 0.1
 
 		enable_tactic = tactic_elastic_defense
 		
@@ -3072,7 +3084,12 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		org_loss_when_moving = -0.25
-		land_reinforce_rate = 0.03
+		mechanized = {
+			initiative = 0.02
+		}	
+		motorized = {
+			initiative = 0.02
+		}
 		
 		enable_tactic = tactic_backhand_blow
 
@@ -3195,10 +3212,8 @@ technologies = {
 		xp_unlock_cost = 100
 
 		infantry = {
-			need = { infantry_equipment = -10}
+			need = { infantry_equipment = -25}
 		}
-
-		land_reinforce_rate = 0.03	
 
 		on_research_complete = {
 			custom_effect_tooltip = inf_discount_tt
@@ -3242,7 +3257,9 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		land_reinforce_rate = 0.05	
+		infantry = {
+			initiative = 0.02
+		}	
 		category_all_infantry = {
 			max_organisation = 3
 		}

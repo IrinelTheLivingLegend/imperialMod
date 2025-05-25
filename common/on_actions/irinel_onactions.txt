@@ -41,6 +41,18 @@ on_actions = {
                     var_numar_de_voluntari = 5
                 }
             }
+            ENG = {
+                add_timed_idea = {
+                    idea = allies_rafinery_debuff
+                    days = 1825
+                }
+            }
+            USA = {
+                add_timed_idea = {
+                    idea = allies_rafinery_debuff
+                    days = 1825
+                }
+            }
 
 
             if = {
@@ -121,6 +133,30 @@ on_actions = {
                         add_compliance = 70
                     }
                 }
+                AST = {
+                    annex_country = {
+                        target = NZL
+                    }
+                    every_state = {
+                        limit = {
+                            is_core_of = NZL
+                        }
+                        add_core_of = AST
+                    }
+                }
+                CAN = {
+                    annex_country = {
+                        target = SAF
+                    }
+                    every_state = {
+                        limit = {
+                            is_core_of = SAF
+                        }
+                        add_core_of = CAN
+                    }
+                }
+                
+
             }
             if = {
                 limit = {
@@ -165,6 +201,7 @@ on_actions = {
                     annex_country = {target = MEX}
                     annex_country = {target = PHI}
                     annex_country = {target = LIB}
+                    
                     every_state = {
                         limit = {
                             is_owned_and_controlled_by = NOO
@@ -205,6 +242,28 @@ on_actions = {
                             is_core_of = INS
                         }
                         add_compliance = 70
+                    }
+                }
+                AST = {
+                    annex_country = {
+                        target = NZL
+                    }
+                    every_state = {
+                        limit = {
+                            is_core_of = NZL
+                        }
+                        add_core_of = AST
+                    }
+                }
+                CAN = {
+                    annex_country = {
+                        target = SAF
+                    }
+                    every_state = {
+                        limit = {
+                            is_core_of = SAF
+                        }
+                        add_core_of = CAN
                     }
                 }
             }

@@ -2211,11 +2211,7 @@ economy_decisions = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 10
-				any_owned_state = { free_building_slots = { building = industrial_complex size < 1 include_locked = no } }
-			}
+			factor = -100
 		}
     }
 

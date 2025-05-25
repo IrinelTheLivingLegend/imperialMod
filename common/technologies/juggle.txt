@@ -1,5 +1,5 @@
 technologies = {
-	Juggle1 = {
+	Juggle = {
 		research_cost = 0
 		folder = {
 			name = industry_folder
@@ -8,7 +8,7 @@ technologies = {
 
 		on_research_complete = {
 			set_technology = {
-				Juggle1 = 0
+				Juggle = 0
 			}
 		}
 
@@ -16,21 +16,5 @@ technologies = {
 			factor = -100
 		}
 	}
-	Juggle2 = {
-		research_cost = 0
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 0 }
-		}
 
-		on_research_complete = {
-			set_technology = {
-				Juggle2 = 0
-			}
-		}
-
-		ai_will_do = {
-			factor = -100
-		}
-	}
 }
