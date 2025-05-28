@@ -957,8 +957,8 @@ NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_DIRECT_DISRUPTION_DAMAGE_FACTOR = 0
 NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_TRUCK_MAX_FACTOR = 0
 
 NDefines.NMilitary.PLAN_SPREAD_ATTACK_WEIGHT = 1.0 -- 12.0 vanilla | AI should concentrate forces more a bit experimental. Increased from 4.0 to combat issues with AI death stacks - SpicyAlfredo
-NDefines.NMilitary.PLANNING_DECAY = 0.012
-NDefines.NMilitary.PLANNING_GAIN = 0.016
+NDefines.NMilitary.PLANNING_DECAY = 0.011
+NDefines.NMilitary.PLANNING_GAIN = 0.018
 NDefines.NMilitary.PLANNING_MAX = 0.1     -- vanilla 0.3
 NDefines.NMilitary.PLAN_CONSIDERED_GOOD = 0.3	-- 0.25 vanilla | Plan evaluations above this value are considered more or less safe
 NDefines.NMilitary.PLAN_CONSIDERED_BAD = -0.3	-- -0.25 vanilla | Plan evaluations below this value are considered unsafe
@@ -977,15 +977,15 @@ NDefines.NMilitary.PLAN_PROVINCE_MEDIUM_VP_IMPORTANCE_FRONT = 1.0 -- 2.25 vanill
 NDefines.NMilitary.PLAN_PROVINCE_HIGH_VP_IMPORTANCE_FRONT = 1.0 -- 2.75 vanilla | Used when calculating the calue of fronts in the battle plan system
 NDefines.NMilitary.PLAN_SHARED_FRONT_PROV_IMPORTANCE_FACTOR = 1.0	-- 0.8 vanilla | If fornt orders share end provinces, they should each have a somewhat reduced prio due to it being shared.
 NDefines.NMilitary.PLAN_PORVINCE_PORT_BASE_IMPORTANCE = 1.0		-- Added importance for area defense province with a port
-NDefines.NMilitary.PLAN_PORVINCE_PORT_LEVEL_FACTOR = 1.0			-- Bonus factor for port level
+NDefines.NMilitary.PLAN_PORVINCE_PORT_LEVEL_FACTOR = 0			-- Bonus factor for port level
 NDefines.NMilitary.PLAN_PORVINCE_AIRFIELD_BASE_IMPORTANCE = 1.0	-- Added importance for area defense province with air field
-NDefines.NMilitary.PLAN_PORVINCE_AIRFIELD_POPULATED_FACTOR = 1.0	-- Bonus factor when an airfield has planes on it
-NDefines.NMilitary.PLAN_PORVINCE_AIRFIELD_LEVEL_FACTOR = 1.0		-- Bonus factor for airfield level
+NDefines.NMilitary.PLAN_PORVINCE_AIRFIELD_POPULATED_FACTOR = 0	-- Bonus factor when an airfield has planes on it
+NDefines.NMilitary.PLAN_PORVINCE_AIRFIELD_LEVEL_FACTOR = 0		-- Bonus factor for airfield level
 NDefines.NMilitary.PLAN_PORVINCE_RESISTANCE_BASE_IMPORTANCE = 1.0 -- Used when calculating the calue of defense area provinces for the battle plan system (factored by resistance level)
 NDefines.NMilitary.PLAN_PROVINCE_VP_PORT_FACTOR = 1.0
 
 	-- These need to result in province value > 1.0 for it to matter.
-NDefines.NMilitary.PLAN_AREA_DEFENSE_ENEMY_CONTROLLER_SCORE = 1.0-- Score applied to provinces in the defense area order controlled by enemies
+NDefines.NMilitary.PLAN_AREA_DEFENSE_ENEMY_CONTROLLER_SCORE = 1.0 -- Score applied to provinces in the defense area order controlled by enemies
 NDefines.NMilitary.PLAN_AREA_DEFENSE_ENEMY_UNIT_FACTOR = 1.0		-- Factor applied to province score in area defense order per enemy unit in that province
 NDefines.NMilitary.PLAN_AREA_DEFENSE_FORT_IMPORTANCE = 1.0		-- Used when calculating the value of defense area provinces for the battle plan system, works as multipliers on the rest
 NDefines.NMilitary.PLAN_AREA_DEFENSE_COASTAL_FORT_IMPORTANCE = 1.0-- Used when calculating the value of defense area provinces for the battle plan system
