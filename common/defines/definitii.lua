@@ -998,3 +998,7 @@ NDefines.NMilitary.PLAN_EXECUTE_CAREFUL_LIMIT = 20                -- When lookin
 NDefines.NMilitary.PLAN_EXECUTE_BALANCED_LIMIT = 0                -- When looking for an attack target, this score limit is required in the battle plan to consider province for attack
 NDefines.NMilitary.PLAN_EXECUTE_RUSH = -50                       -- When looking for an attack target, this score limit is required in the battle plan to consider province for attack
 NDefines.NMilitary.PLAN_EXECUTE_CAREFUL_MAX_FORT = 5				-- If execution mode is set to careful, units will not attack provinces with fort levels greater than or equal to this
+
+
+NDefines.NMilitary.EQUIPMENT_COMBAT_LOSS_FACTOR = 1.0
+NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_SPEED_IMPACT = -0.45     -- effect on speed due to enemy air superiority
