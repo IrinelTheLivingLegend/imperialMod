@@ -5,7 +5,7 @@ technologies = {
 		doctrine_name = "MOBILE_WARFARE_DOCTRINE"
 		
 		xp_research_type = army
-		xp_unlock_cost = 1
+		xp_unlock_cost = 100
 		
 		xor = { superior_firepower trench_warfare mass_assault } 
 
@@ -238,7 +238,8 @@ technologies = {
 		xp_unlock_cost = 100
 		category_all_infantry = {
 			max_organisation = 10
-		}	
+			defense = 0.33
+		}
 		
 		path = {
 			leads_to_tech = mechanised_offensive 
@@ -903,7 +904,7 @@ technologies = {
 		doctrine_name = "SUPERIOR_FIREPOWER_DOCTRINE"
 		
 		xp_research_type = army
-		xp_unlock_cost = 1
+		xp_unlock_cost = 100
 		
 		xor = { mobile_warfare trench_warfare mass_assault } 
 
@@ -1758,12 +1759,11 @@ technologies = {
 		doctrine_name = "GRAND_BATTLEPLAN_DOCTRINE"
 
 		xp_research_type = army
-		xp_unlock_cost = 1
+		xp_unlock_cost = 100
 		
 		xor = { mobile_warfare superior_firepower mass_assault } 
 		
-		max_dig_in = 5
-		dig_in_speed_factor = 0.25 #25% bonus
+		dig_in_speed_factor = 0.5 #25% bonus
 		
 		
 		path = {
@@ -1855,7 +1855,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		category_all_infantry = {
-			defense = 0.10
+			defense = 0.33
 			max_organisation = 10
 		}
 		
@@ -1962,6 +1962,7 @@ technologies = {
 			max_organisation = 5
 			soft_attack = 0.15
 			hard_attack = 0.15
+			breakthrough = 0.15
 		}
 
 		enable_tactic = tactic_blitz
@@ -2016,6 +2017,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		max_planning = 0.1
+		terrain_penalty_reduction = 0.1
 
 		enable_tactic = tactic_overwhelming_fire
 		
@@ -2496,7 +2498,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		max_dig_in = 5
+		max_dig_in = 10
 
 		path = {
 			leads_to_tech = infiltration_in_depth 
@@ -2595,7 +2597,7 @@ technologies = {
 		doctrine_name = "MASS_ASSAULT_DOCTRINE"
 		
 		xp_research_type = army
-		xp_unlock_cost = 1
+		xp_unlock_cost = 100
 		xor = { mobile_warfare superior_firepower trench_warfare } 
 
 		path = {
@@ -2811,6 +2813,12 @@ technologies = {
 	}
 	
 	deep_operations = {
+		motorized = {
+			defense = 0.33
+		}
+		mechanized = {
+			defense = 0.33
+		}
 		category_tanks = {
 			max_organisation = 5
 		}
@@ -3140,9 +3148,7 @@ technologies = {
 		xp_unlock_cost = 100
 
 		category_army = {
-			soft_attack = -0.25
-			breakthrough = -0.25
-			defense = 0.05
+			defense = 0.33
 		}
 		
 		#Increased Partisan effect on your land occupied by others
@@ -3260,8 +3266,8 @@ technologies = {
 		infantry = {
 			initiative = 0.02
 		}	
-		category_all_infantry = {
-			max_organisation = 3
+		category_army = {
+			default_morale = 0.3
 		}
 		
 		
@@ -3349,7 +3355,7 @@ technologies = {
 		xp_unlock_cost = 100
 		out_of_supply_factor = -0.25
 		category_army = {
-			default_morale = 0.2
+			default_morale = 0.3
 		}
 		
 		resistance_growth_on_our_occupied_states = 0.25 
