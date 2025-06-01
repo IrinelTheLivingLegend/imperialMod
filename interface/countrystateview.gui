@@ -543,12 +543,12 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 		
-		buttonType = {
-			name = "remove"
-			position = { x = 23 y = 2 }
-			scale = 0.625
-			spriteType = "GFX_cancel_conversion_button"
-		}
+		# buttonType = {
+		# 	name = "remove"
+		# 	position = { x = 23 y = 2 }
+		# 	scale = 0.625
+		# 	spriteType = "GFX_cancel_conversion_button"
+		# }
 		
 		iconType = {
 			name = "damage_bar"

@@ -669,9 +669,10 @@ NDefines.NMilitary.REINFORCE_CHANCE = 0 --haha lol -- vanilla 0.02
 NDefines.NProduction.EQUIPMENT_BASE_LEND_LEASE_WEIGHT = 3.0 -- Base equipment lend lease weight
 NDefines.NProduction.EQUIPMENT_LEND_LEASE_WEIGHT_FACTOR = 0.03 -- Base equipment lend lease factor
 NDefines.NProduction.LEND_LEASE_DELIVERY_TOTAL_DAYS = 30                    -- Nr of days between lend lease deliveries
-
-NDefines.NGame.GAME_SPEED_SECONDS = { 6000.0, 0.25, 0.1, 0.05, 0.0 }
-
+--                                    Higher is slower
+--                                    1speed   2speed   3speed    4speed    5speed
+NDefines.NGame.GAME_SPEED_SECONDS = { 6000.0,  0.25,    0.2,      0.15,     0.1    }
+--                           vanilla: 2.0,     0.5,     0.2,      0.1,      0.0
 
 NDefines.NMilitary.TACTIC_SWAP_FREQUENCEY = 24 --12
 NDefines.NMilitary.PREFERRED_TACTIC_CHARACTER_SKILL_LEVEL_REQUIRED = 1
@@ -803,7 +804,7 @@ NDefines.NNavy.SPOTTING_SPEED_EFFECT_FOR_INITIAL_UNIT_TRANSFER_SPOTTING = 15.0
 NDefines.NNavy.BASE_SPOTTING_EFFECT_FOR_INITIAL_NAVAL_INVASION_SPOTTING = 0.75
 NDefines.NNavy.SPOTTING_SPEED_EFFECT_FOR_INITIAL_NAVAL_INVASION_SPOTTING = 0.05
 NDefines.NNavy.TRAINING_ACCIDENT_CHANCES = 0.00
-NDefines.NNavy.AMPHIBIOUS_LANDING_PENALTY = -0.37
+NDefines.NNavy.AMPHIBIOUS_LANDING_PENALTY = -0.5
 NDefines.NNavy.LEADER_EXPERIENCE_SCALE = 0.0
 NDefines.NNavy.NAVY_PIERCING_THRESHOLDS = {
     2.00,
@@ -895,7 +896,7 @@ NDefines.NAir.ACE_DEATH_BY_OTHER_ACE_CHANCE = 0
 NDefines.NAir.ACE_DEATH_CHANCE_PLANES_MULT = 0
 NDefines.NAir.ACE_EARN_CHANCE_BASE = 0
 NDefines.NAir.ACE_EARN_CHANCE_PLANES_MULT = 0
-NDefines.NAir.SUPPLY_NEED_FACTOR = 0.01
+NDefines.NAir.SUPPLY_NEED_FACTOR = 0.012
 NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_FACTOR = 0.8
 NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_CHANCE = 0.1
 NDefines.NAir.ANTI_AIR_ATTACK_TO_DAMAGE_REDUCTION_FACTOR = 1
@@ -999,6 +1000,34 @@ NDefines.NMilitary.PLAN_EXECUTE_BALANCED_LIMIT = 0                -- When lookin
 NDefines.NMilitary.PLAN_EXECUTE_RUSH = -50                       -- When looking for an attack target, this score limit is required in the battle plan to consider province for attack
 NDefines.NMilitary.PLAN_EXECUTE_CAREFUL_MAX_FORT = 5				-- If execution mode is set to careful, units will not attack provinces with fort levels greater than or equal to this
 
-
 NDefines.NMilitary.EQUIPMENT_COMBAT_LOSS_FACTOR = 1.0
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_SPEED_IMPACT = -0.45     -- effect on speed due to enemy air superiority
+
+NDefines.NCountry.SCORCHED_EARTH_STATE_COST = 50
+
+NDefines.NMilitary.PIERCING_THRESHOLDS = {					-- Our piercing / their armor must be this value to deal damage fraction equal to the index in the array below [higher number = higher penetration]. If armor is 0, 1.00 will be returned.
+		1.00,
+		0.9,
+		0.8,
+		0.7,
+		0.6,
+		0.5,
+		0.4,
+		0.3,
+		0.2,
+		0.1,
+		0
+	}
+NDefines.NMilitary.PIERCING_THRESHOLD_DAMAGE_VALUES = {	-- 0 armor will always receive maximum damage (so add overmatching at your own peril). the system expects at least 2 values, with no upper limit.
+		1.00,
+		0.9,
+		0.8,
+		0.7,
+		0.6,
+		0.5,
+		0.4,
+		0.3,
+		0.2,
+		0.1,
+		0
+	}

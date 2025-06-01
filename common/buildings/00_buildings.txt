@@ -86,7 +86,7 @@ buildings = {
 		icon_frame = 5
 		air_base = yes
 		value = 1
-		damage_factor = 0.5
+		damage_factor = 0.25
 		allied_build = yes
 		infrastructure_construction_effect = yes
 		level_cap = {
@@ -252,7 +252,7 @@ buildings = {
 
 	synthetic_refinery = {
 		show_on_map = 1
-		base_cost = 14500
+		base_cost = 10000
 		icon_frame = 10
 		#local_resources_oil = 1 # May use local_resources_ + any resource name
 		local_resources_rubber = 1 # May use local_resources_ + any resource name
@@ -264,7 +264,7 @@ buildings = {
 
 		country_modifiers = {
 			modifiers = {
-			fuel_gain_from_states = 2.0 #per hour
+			fuel_gain_from_states = 3.0 #per hour
 			}
 		}
 
@@ -275,16 +275,16 @@ buildings = {
 
 	fuel_silo = {
 		show_on_map = 1
-		base_cost = 5000
+		base_cost = 500
 		icon_frame = 14
 		value = 5
 		infrastructure_construction_effect = yes
 		fuel_silo = yes
-		per_level_extra_cost = -500		
+		per_level_extra_cost = -100		
 		show_modifier = yes
 		country_modifiers = {
 			modifiers = {
-				max_fuel_building = 100.0 #k
+				max_fuel_building = 200.0 #k
 			}
 		}
 		

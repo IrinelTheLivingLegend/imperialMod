@@ -14385,6 +14385,7 @@ focus_tree = {
 			}
 			
 	}
+	}
 
 	focus = {
 		id = ITA_auxiliaries
@@ -16963,7 +16964,7 @@ focus_tree = {
 				}
 				set_rule = { can_declare_war_on_same_ideology = yes }
 			}
-			
+		}		
 	}
 	
 	focus = {
