@@ -1,11 +1,7 @@
 NDefines.NFocus.FOCUS_POINT_DAYS = 5 -- 1.5x focuses
 NDefines.NDiplomacy.DIPLOMACY_REQUEST_EXPIRY_DAYS = 30
-NDefines.NDiplomacy.NUM_DAYS_TO_ENABLE_KICKING_NEW_MEMBERS_OF_FACTION = 1			-- Number of days before being able to kick a new member of faction
-NDefines.NDiplomacy.NUM_DAYS_TO_ENABLE_REINVITE_KICKED_NATIONS = 1			-- Number of days before being able to re invite a kicked nation to your faction
 NDefines.NDiplomacy.BASE_NEGATIVE_OPINION_AFTER_BEING_KICKED = 0				-- Negative opinion that will be received after kicking a nation
 NDefines.NDiplomacy.DECAY_RATE_OF_NEGATIVE_OPINION_AFTER_BEING_KICKED = 1			-- Weekly decay rate of the negative opinion
-NDefines.NDiplomacy.BASE_SEND_ATTACHE_COST = 50				-- Political power cost to send attache
-NDefines.NDiplomacy.BASE_SEND_ATTACHE_CP_COST = 50.0				-- Command Power sent attache usage cost
 NDefines.NDiplomacy.MIN_WARGOAL_JUSTIFY_COST = 7.0					-- It always takes atleast 10 days to justify a wargoal
 NDefines.NDiplomacy.PEACE_SCORE_PER_PASS = 100.0
 NDefines.NDiplomacy.IDEOLOGY_JOIN_FACTION_MIN_LEVEL = 0
@@ -37,17 +33,15 @@ NDefines.NProduction.RAILWAY_GUN_MAX_MIL_FACTORIES_PER_LINE = 30
 NDefines.NProduction.BASE_FACTORY_SPEED_MIL = 4.5
 NDefines.NProduction.BASE_FACTORY_SPEED_NAV = 5.0
 NDefines.NProduction.MINIMUM_NUMBER_OF_FACTORIES_TAKEN_BY_CONSUMER_GOODS_PERCENT = 0.01
-NDefines.NProduction.CAPITULATE_STOCKPILES_RATIO = 0
+NDefines.NProduction.CAPITULATE_STOCKPILES_RATIO = 0.75
 ----------------------------------
 NDefines.NTechnology.MAX_SUBTECHS = 4						-- Max number of sub technologies a technology can have.
 NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 100.0 --#base game 30 changed to 50 and then why not 56?
-NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 1.0		-- Base year ahead penalty
+NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 4.0		-- Base year ahead penalty
 NDefines.NTechnology.BASE_TECH_COST = 100					-- Base cost for a tech. multiplied with tech cost and ahead of time penalties
 ----------------------------------
 NDefines.NCountry.SPECIAL_FORCES_CAP_BASE = 0.0 -- prevent special forces exploit 
 NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 400 -- 10 forty-width special forces divisions, plenty  
-NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 500
-NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 500
 NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 5000
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 5000
 NDefines.NMilitary.MAX_AIR_EXPERIENCE = 5000
@@ -75,7 +69,7 @@ NDefines.NMilitary.COMBAT_OVER_WIDTH_PENALTY = -1
 	
 NDefines.NProduction.LICENSE_EQUIPMENT_SPEED_NOT_FACTION = 0
 NDefines.NProduction.LICENSE_EQUIPMENT_TECH_SPEED_PER_YEAR = 0
-NDefines.NProduction.LICENSE_EQUIPMENT_BASE_SPEED = -0.1
+NDefines.NProduction.LICENSE_EQUIPMENT_BASE_SPEED = 0
 NDefines.NProduction.BASE_LICENSE_IC_COST = 0	
 NDefines.NProduction.LICENSE_IC_COST_YEAR_INCREASE = 0	
 NDefines.NDiplomacy.LICENSE_ACCEPTANCE_PUPPET_BASE = 20			-- Acceptance modifier for puppets requesting production licenses.
@@ -137,7 +131,6 @@ NDefines.NMilitary.MAX_AIR_EXPERIENCE = 2000  -- Max air experience a country ca
 NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.02
 NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 50
 NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 10
-NDefines.NMilitary.RECON_SKILL_IMPACT = 6
 NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 0 -- Base cost to unlock a regiment slot
 NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 0 -- Base cost to change a regiment column.
 NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 0
@@ -146,9 +139,9 @@ NDefines.NMilitary.BASE_LEADER_TRAIT_GAIN_XP = 0.45
 NDefines.NMilitary.UNIT_EXPERIENCE_PER_COMBAT_HOUR = 0.0001
 NDefines.NMilitary.FIELD_EXPERIENCE_MAX_PER_DAY = 1.2
 NDefines.NMilitary.ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0.1
-NDefines.NMilitary.PLAYER_ORDER_PLANNING_DECAY = 0.03
+
 NDefines.NMilitary.DISBAND_MANPOWER_LOSS = 0.0
-NDefines.NMilitary.FIELD_MARSHAL_XP_RATIO = 0.3
+NDefines.NMilitary.FIELD_MARSHAL_XP_RATIO = 1.0
 NDefines.NMilitary.COMMANDER_LEVEL_UP_STAT_WEIGHTS = {5, 5, 3, 4}
 NDefines.NMilitary.NEW_COMMANDER_RANDOM_PERSONALITY_TRAIT_CHANCES = { -- Chances to gain a personality trait for new generals
     0.80, --50% for first trait
@@ -625,14 +618,16 @@ NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 2   -- vanilla 3
 NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.024      -- vanilla 0.032 | Air global damage modifier
 NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.024      -- vanilla 0.032 | global damage modifier
 
-NDefines.NMilitary.LAND_COMBAT_STR_DICE_SIZE = 2                 -- vanilla 2
-NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.048        -- vanilla 0.060
-NDefines.NMilitary.LAND_COMBAT_ORG_DICE_SIZE = 4                    -- vanilla 4
-NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.042       -- vanilla 0.053 
+NDefines.NMilitary.LAND_COMBAT_STR_DICE_SIZE = 1                 -- vanilla 2
+NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.028        -- vanilla 0.060
+NDefines.NMilitary.LAND_COMBAT_ORG_DICE_SIZE = 1                    -- vanilla 4
+NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.053       -- vanilla 0.053 
 
-NDefines.NMilitary.LAND_COMBAT_STR_ARMOR_ON_SOFT_DICE_SIZE = 2   -- vanilla 2 | Extra damage dice if our armor outclasses enemy
-NDefines.NMilitary.LAND_COMBAT_ORG_ARMOR_ON_SOFT_DICE_SIZE = 4   -- vanilla 6 | Removed the extra damage because it didn't worked properly, it's supposed to deal more damage if unpierced 100%, but it's also active when partially pierced.
+NDefines.NMilitary.BASE_CHANCE_TO_AVOID_HIT = 80 --vanilla 90%
+NDefines.NMilitary.CHANCE_TO_AVOID_HIT_AT_NO_DEF = 0 --vanilla 60%
 
+NDefines.NMilitary.LAND_COMBAT_STR_ARMOR_ON_SOFT_DICE_SIZE = 1   -- vanilla 2 | Extra damage dice if our armor outclasses enemy
+NDefines.NMilitary.LAND_COMBAT_ORG_ARMOR_ON_SOFT_DICE_SIZE = 1   -- vanilla 6 | Removed the extra damage because it didn't worked properly, it's supposed to deal more damage if unpierced 100%, but it's also active when partially pierced.
 
 NDefines.NMilitary.COMBAT_OVER_WIDTH_PENALTY_MAX = 0
 
@@ -671,7 +666,7 @@ NDefines.NProduction.EQUIPMENT_LEND_LEASE_WEIGHT_FACTOR = 0.03 -- Base equipment
 NDefines.NProduction.LEND_LEASE_DELIVERY_TOTAL_DAYS = 30                    -- Nr of days between lend lease deliveries
 --                                    Higher is slower
 --                                    1speed   2speed   3speed    4speed    5speed
-NDefines.NGame.GAME_SPEED_SECONDS = { 6000.0,  0.25,    0.2,      0.15,     0.1    }
+NDefines.NGame.GAME_SPEED_SECONDS = { 6000.0,  0.25,    0.15,      0.08,     0    }
 --                           vanilla: 2.0,     0.5,     0.2,      0.1,      0.0
 
 NDefines.NMilitary.TACTIC_SWAP_FREQUENCEY = 24 --12
@@ -959,6 +954,7 @@ NDefines.NAir.AIR_WING_ATTACK_LOGISTICS_TRUCK_MAX_FACTOR = 0
 
 NDefines.NMilitary.PLAN_SPREAD_ATTACK_WEIGHT = 1.0 -- 12.0 vanilla | AI should concentrate forces more a bit experimental. Increased from 4.0 to combat issues with AI death stacks - SpicyAlfredo
 NDefines.NMilitary.PLANNING_DECAY = 0.011
+NDefines.NMilitary.PLAYER_ORDER_PLANNING_DECAY = 0.011
 NDefines.NMilitary.PLANNING_GAIN = 0.018
 NDefines.NMilitary.PLANNING_MAX = 0.1     -- vanilla 0.3
 NDefines.NMilitary.PLAN_CONSIDERED_GOOD = 0.3	-- 0.25 vanilla | Plan evaluations above this value are considered more or less safe
@@ -1001,7 +997,7 @@ NDefines.NMilitary.PLAN_EXECUTE_RUSH = -50                       -- When looking
 NDefines.NMilitary.PLAN_EXECUTE_CAREFUL_MAX_FORT = 5				-- If execution mode is set to careful, units will not attack provinces with fort levels greater than or equal to this
 
 NDefines.NMilitary.EQUIPMENT_COMBAT_LOSS_FACTOR = 1.0
-NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_SPEED_IMPACT = -0.45     -- effect on speed due to enemy air superiority
+NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_SPEED_IMPACT = -0.5     -- effect on speed due to enemy air superiority
 
 NDefines.NCountry.SCORCHED_EARTH_STATE_COST = 50
 
@@ -1031,3 +1027,75 @@ NDefines.NMilitary.PIERCING_THRESHOLD_DAMAGE_VALUES = {	-- 0 armor will always r
 		0.1,
 		0
 	}
+
+NDefines.NCountry.POPULATION_YEARLY_GROWTH_BASE = 0               --Removed for game stability/reducing chance of desync
+NDefines.NIntel.NAVAL_SUPREMACY_INTEL_LOW = 0.0								-- we need more intel than this to get any supremacy - should hopefully make naval invasions not be blocked by intel nonesense????
+NDefines.NGame.MESSAGE_TIMEOUT_DAYS = 16 --| less messages lying around at the top of your screen | CHANGE FOR CHECKSUMM
+NDefines.NCountry.COUNTRY_SCORE_MULTIPLIER = 0				-- Weight of the country score.
+NDefines.NCountry.ARMY_SCORE_MULTIPLIER = 0					-- Based on number of armies.
+NDefines.NCountry.NAVY_SCORE_MULTIPLIER = 0					-- Based on number of navies.
+NDefines.NCountry.AIR_SCORE_MULTIPLIER = 0					-- Based on number of planes (which is typically a lot).
+NDefines.NCountry.INDUSTRY_SCORE_MULTIPLIER = 0				-- Based on number of factories.
+NDefines.NCountry.PROVINCE_SCORE_MULTIPLIER = 0				-- Based on number of controlled provinces.
+NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 400 -- these defines are most likely hourly and not daily , rever to 100 and 1 if desyncs during someone lagging for 10 days
+NDefines.NGame.LAG_DAYS_FOR_PAUSE = 720
+NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 12
+NDefines.NGame.AIR_LOG_TIMEOUT_HOURS = 24						-- Vanilla was 24
+NDefines.NResistance.GARRISON_LOG_MAX_MONTHS = 0
+
+NDefines.NDiplomacy.BASE_SEND_ATTACHE_COST = 0
+NDefines.NDiplomacy.BASE_SEND_ATTACHE_CP_COST = 0.0				-- Command Power sent attache usage cost
+
+NDefines.NDiplomacy.TRUCE_PERIOD_AFTER_KICKING_FROM_FACTION = 0
+NDefines.NDiplomacy.NUM_DAYS_TO_ENABLE_KICKING_NEW_MEMBERS_OF_FACTION = 0
+NDefines.NDiplomacy.NUM_DAYS_TO_ENABLE_REINVITE_KICKED_NATIONS = 0
+NDefines.NDiplomacy.FRONT_IS_DANGEROUS = 0
+
+
+NDefines.NCountry.REINFORCEMENT_EQUIPMENT_DELIVERY_SPEED = 0.27 --0.3 vanilla
+NDefines.NCountry.REINFORCEMENT_MANPOWER_DELIVERY_SPEED = 9.0 --10 vanilla
+NDefines.NCountry.REINFORCEMENT_MANPOWER_CHUNK = 0.1
+
+NDefines.NCountry.ATTACHE_XP_SHARE = 0.05
+NDefines.NCountry.NUM_DAYS_TO_FULLY_DELETE_STOCKPILED_EQUIPMENT = 9999
+
+NDefines.NCountry.MAX_INTELLIGENCE_AIR_DATA_DEVIATION = 0.6 
+NDefines.NCountry.MAX_INTELLIGENCE_MILITARY_DATA_DEVIATION = 0.6 
+
+NDefines.NCountry.GIE_DIVISION_ATTACK_BONUS_AGAINST_OCCUPIER = 0.05 -- Attack bonus factor against whoever occupies your core territory.
+NDefines.NCountry.GIE_DIVISION_DEFENSE_BONUS_AGAINST_OCCUPIER = 0.05 -- Attack bonus factor against whoever occupies your core territory.
+NDefines.NCountry.GIE_DIVISION_ATTACK_BONUS_ON_CORE = 0.0 -- Attack bonus factor when fighting on cores.
+NDefines.NCountry.GIE_DIVISION_DEFENSE_BONUS_ON_CORE = 0.0 -- Defense bonus factor when fighting on cores.
+
+NDefines.NProduction.LICENSE_IC_COST_YEAR_INCREASE = 0					-- IC cost equipment for every year of equipment after 1936
+
+NDefines.NProduction.MAX_MIL_FACTORIES_PER_LINE = 1000
+
+NDefines.NProduction.CONVERSION_SPEED_BONUS = -2
+
+NDefines.NBuildings.INFRASTRUCTURE_RESOURCE_BONUS = 0.1 -- multiplicative resource bonus for each level of (non damaged) infrastructure
+NDefines.NBuildings.SUPPLY_ROUTE_RESOURCE_BONUS = 0.0
+
+NDefines.NBuildings.ANTI_AIR_SUPERIORITY_MULT = 20.0	-- How much air superiority reduction to the enemy does our AA guns? Normally each building level = -1 reduction. With this multiplier.
+
+NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 500		-- how many divisions a corps commander is limited to. 0 = inf, < 0 = blocked
+NDefines.NMilitary.CORPS_COMMANDER_ARMIES_CAP = -1				-- how many armies a corps commander is limited to. 0 = inf, < 0 = blocked
+NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 1			-- how many divisions a field marshall is limited to. 0 = inf, < 0 = blocked
+NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 1				-- how many armies a field marshall is limited to. 0 = inf, < 0 = blocked
+
+NDefines.NMilitary.COMBAT_STACKING_START = 3						-- vanilla is 8 -- at what nr of divisions stacking penalty starts
+NDefines.NMilitary.COMBAT_STACKING_EXTRA = 1                      -- vanilla is 4 -- extra stacking from directions
+NDefines.NMilitary.COMBAT_STACKING_PENALTY = -0.08               -- vanilla is -0.02 -- how much stacking penalty per division
+
+NDefines.NMilitary.RECON_SKILL_IMPACT = 8
+
+NDefines.NMilitary.RELIABILTY_RECOVERY = 0.0 -- Vanilla is 0.1, reduce because it's a broken in vanilla HOI4. Fix if ever fixed.
+
+NDefines.NMilitary.SPEED_REINFORCEMENT_BONUS = 0.1
+
+NDefines.NMilitary.AIR_SUPPORT_BASE = 0.15
+
+NDefines.NSupply.NODE_INITIAL_SUPPLY_FLOW = 4.2
+NDefines.NSupply.NAVAL_BASE_INITIAL_SUPPLY_FLOW = 7.0
+NDefines.NSupply.DAYS_TO_START_GIVING_SUPPLY_AFTER_MOVING_SUPPLY_CAPITAL = 1
+NDefines.NSupply.DAYS_TO_START_GIVING_FULL_SUPPLY_AFTER_MOVING_SUPPLY_CAPITAL = 2
