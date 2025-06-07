@@ -1051,7 +1051,6 @@ NDefines.NDiplomacy.NUM_DAYS_TO_ENABLE_KICKING_NEW_MEMBERS_OF_FACTION = 0
 NDefines.NDiplomacy.NUM_DAYS_TO_ENABLE_REINVITE_KICKED_NATIONS = 0
 NDefines.NDiplomacy.FRONT_IS_DANGEROUS = 0
 
-
 NDefines.NCountry.REINFORCEMENT_EQUIPMENT_DELIVERY_SPEED = 0.27 --0.3 vanilla
 NDefines.NCountry.REINFORCEMENT_MANPOWER_DELIVERY_SPEED = 9.0 --10 vanilla
 NDefines.NCountry.REINFORCEMENT_MANPOWER_CHUNK = 0.1
@@ -1099,3 +1098,8 @@ NDefines.NSupply.NODE_INITIAL_SUPPLY_FLOW = 4.2
 NDefines.NSupply.NAVAL_BASE_INITIAL_SUPPLY_FLOW = 7.0
 NDefines.NSupply.DAYS_TO_START_GIVING_SUPPLY_AFTER_MOVING_SUPPLY_CAPITAL = 1
 NDefines.NSupply.DAYS_TO_START_GIVING_FULL_SUPPLY_AFTER_MOVING_SUPPLY_CAPITAL = 2
+
+NDefines.NMilitary.LAND_COMBAT_ORG_ARMOR_DEFLECTION_FACTOR = 0.5 -- damage reduction if armor outclassing enemy, will look at increasing if AT is too deadly to org. 
+NDefines.NMilitary.LAND_COMBAT_STR_ARMOR_DEFLECTION_FACTOR = 1.0 -- damage reduction if armor outclassing enemy
+
+NDefines.NMilitary.BASE_NIGHT_ATTACK_PENALTY = 0 --vanilla -0.5
