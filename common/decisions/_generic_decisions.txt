@@ -1,4 +1,5 @@
 political_actions = {
+	
 
 
 	targeted_race_for_the_bomb = {

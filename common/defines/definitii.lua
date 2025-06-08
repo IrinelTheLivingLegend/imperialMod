@@ -614,14 +614,14 @@ NDefines.NMilitary.HOURLY_ORG_MOVEMENT_IMPACT = 0 -- -0.2		-- how much org is lo
 NDefines.NMilitary.INFRASTRUCTURE_MOVEMENT_SPEED_IMPACT = 0 -- -0.05	-- speed penalty per infrastucture below maximum.
 NDefines.NMilitary.TRAINING_ORG = 0.5                        -- vanilla 0.2
 
-NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 2   -- vanilla 3     | How many CAS/TAC can enter a combat depending on enemy width there
-NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.024      -- vanilla 0.032 | Air global damage modifier
-NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.024      -- vanilla 0.032 | global damage modifier
+NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 1   -- vanilla 3     | How many CAS/TAC can enter a combat depending on enemy width there
+NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.09      -- vanilla 0.032 | Air global damage modifier
+NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.09      -- vanilla 0.032 | global damage modifier
 
 NDefines.NMilitary.LAND_COMBAT_STR_DICE_SIZE = 1                 -- vanilla 2
-NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.028        -- vanilla 0.060
+NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.045        -- vanilla 0.060
 NDefines.NMilitary.LAND_COMBAT_ORG_DICE_SIZE = 1                    -- vanilla 4
-NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.053       -- vanilla 0.053 
+NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.080       -- vanilla 0.053 
 
 NDefines.NMilitary.BASE_CHANCE_TO_AVOID_HIT = 80 --vanilla 90%
 NDefines.NMilitary.CHANCE_TO_AVOID_HIT_AT_NO_DEF = 0 --vanilla 60%
