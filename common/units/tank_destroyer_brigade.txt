@@ -13,7 +13,7 @@ sub_units = {
 			anti_tank
 		}
 		
-		group = armor_combat_support
+		group = armor
 		
 		categories = {
 			category_front_line
@@ -36,7 +36,8 @@ sub_units = {
 		weight = 1
 		supply_consumption = 0.2
 
-		breakthrough = -0.42
+		breakthrough = -0.7
+		ap_attack = 0.15
 
 		suppression = 1.0
 
@@ -81,7 +82,7 @@ sub_units = {
 			anti_tank
 		}
 		
-		group = armor_combat_support
+		group = armor
 		
 		categories = {
 			category_front_line
@@ -105,8 +106,8 @@ sub_units = {
 		weight = 1.25
 		supply_consumption = 0.22
 
-		breakthrough = -0.25
-		
+		breakthrough = -0.7
+		ap_attack = 0.15
 		suppression = 1.25
 
 		forest = {
@@ -154,7 +155,7 @@ sub_units = {
 			anti_tank
 		}
 		
-		group = armor_combat_support
+		group = armor
 		
 		categories = {
 			category_front_line
@@ -177,8 +178,8 @@ sub_units = {
 		weight = 1.5
 		supply_consumption = 0.3
 
-		breakthrough = -0.25
-
+		breakthrough = -0.7
+		ap_attack = 0.15
 		suppression = 1.25
 		
 		forest = {
@@ -251,7 +252,8 @@ sub_units = {
 		weight = 1.75
 		supply_consumption = 0.4
 
-		breakthrough = -0.25
+		breakthrough = -0.7
+		ap_attack = 0.15
 
 		suppression = 1.25
 
@@ -302,7 +304,7 @@ sub_units = {
 			anti_tank
 		}
 		
-		group = armor_combat_support
+		group = armor
 		
 		categories = {
 			category_front_line
@@ -326,8 +328,8 @@ sub_units = {
 		weight = 1.5
 		supply_consumption = 0.25
 		
-		breakthrough = -0.25
-
+		breakthrough = -0.7
+		ap_attack = 0.15
 		suppression = 1.25
 		
 		forest = {

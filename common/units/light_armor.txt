@@ -26,7 +26,7 @@ sub_units = {
         initiative = 0.005
 
 		need = {
-			light_tank_chassis = 60
+			light_tank_chassis = 50
 		}
 		manpower = 500
 		max_organisation = 10

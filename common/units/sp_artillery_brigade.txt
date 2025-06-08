@@ -14,7 +14,7 @@ sub_units = {
 			artillery
 		}
 		
-		group = armor_combat_support
+		group = armor
 
 		categories = {
 			category_all_armor
@@ -36,7 +36,7 @@ sub_units = {
 		weight = 1
 		supply_consumption = 0.42
 
-		breakthrough = -0.42
+		breakthrough = -0.7
 
 		suppression = 1.25
 
@@ -82,7 +82,7 @@ sub_units = {
 			artillery
 		}
 		
-		group = armor_combat_support
+		group = armor
 
 		categories = {
 			category_all_armor
@@ -103,7 +103,7 @@ sub_units = {
 		weight = 1.25
 		supply_consumption = 0.46
 
-		breakthrough = -0.25
+		breakthrough = -0.7
 
 		suppression = 1.5
 
@@ -153,7 +153,7 @@ sub_units = {
 			artillery
 		}
 		
-		group = armor_combat_support
+		group = armor
 		
 		categories = {
 			category_all_armor
@@ -174,7 +174,7 @@ sub_units = {
 		weight = 1.5
 		supply_consumption = 0.6
 
-		breakthrough = -0.25
+		breakthrough = -0.7
 
 		suppression = 1.5
 
@@ -246,7 +246,7 @@ sub_units = {
 		weight = 1.75
 		supply_consumption = 0.8
 
-		breakthrough = -0.25
+		breakthrough = -0.7
 
 		suppression = 1.25
 
@@ -295,7 +295,7 @@ sub_units = {
 			artillery
 		}
 		
-		group = armor_combat_support
+		group = armor
 		
 		categories = {
 			category_all_armor
@@ -317,7 +317,7 @@ sub_units = {
 		weight = 1.5
 		supply_consumption = 0.5
 		
-		breakthrough = -0.25
+		breakthrough = -0.7
 
 		suppression = 1.5
 
@@ -366,7 +366,7 @@ sub_units = {
 	#		artillery
 	#	}
 	#	
-	#	group = armor_combat_support
+	#	group = armor
 #
 #	#	categories = {
 #	#		category_all_armor
@@ -429,7 +429,7 @@ sub_units = {
 #	#		artillery
 #	#	}
 #	#	
-#	#	group = armor_combat_support
+#	#	group = armor
 #
 #	#	categories = {
 #	#		category_all_armor
@@ -495,7 +495,7 @@ sub_units = {
 #			artillery
 #		}
 #		
-#		group = armor_combat_support
+#		group = armor
 #		
 #		categories = {
 #			category_all_armor

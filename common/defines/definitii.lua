@@ -1103,3 +1103,5 @@ NDefines.NMilitary.LAND_COMBAT_ORG_ARMOR_DEFLECTION_FACTOR = 0.5 -- damage reduc
 NDefines.NMilitary.LAND_COMBAT_STR_ARMOR_DEFLECTION_FACTOR = 1.0 -- damage reduction if armor outclassing enemy
 
 NDefines.NMilitary.BASE_NIGHT_ATTACK_PENALTY = 0 --vanilla -0.5
+
+NDefines.NMilitary.PEN_VS_AVERAGE = 1.0
