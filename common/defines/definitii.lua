@@ -957,8 +957,8 @@ NDefines.NMilitary.PLANNING_DECAY = 0.011
 NDefines.NMilitary.PLAYER_ORDER_PLANNING_DECAY = 0.011
 NDefines.NMilitary.PLANNING_GAIN = 0.018
 NDefines.NMilitary.PLANNING_MAX = 0.1     -- vanilla 0.3
-NDefines.NMilitary.PLAN_CONSIDERED_GOOD = 0.3	-- 0.25 vanilla | Plan evaluations above this value are considered more or less safe
-NDefines.NMilitary.PLAN_CONSIDERED_BAD = -0.3	-- -0.25 vanilla | Plan evaluations below this value are considered unsafe
+NDefines.NMilitary.PLAN_CONSIDERED_GOOD = 0.25	-- 0.25 vanilla | Plan evaluations above this value are considered more or less safe
+NDefines.NMilitary.PLAN_CONSIDERED_BAD = -0.25	-- -0.25 vanilla | Plan evaluations below this value are considered unsafe
 NDefines.NMilitary.PLAN_MIN_AUTOMATED_EMPTY_POCKET_SIZE = 5		-- 2 vanilla | The battle plan system will only automatically attack provinces in pockets that has no resistance and are no bigger than these many provinces
 NDefines.NMilitary.PLAN_NEIGHBORING_ENEMY_PROVINCE_FACTOR = 0.1	--0.7 vanilla | When calculating the importance of provinces, it takes number of enemy provinces into account, factored by this
 NDefines.NMilitary.PLAN_PROVINCE_BASE_IMPORTANCE = 1.0			-- 2.0 vanilla | Used when calculating the calue of front and defense area provinces for the battle plan system
@@ -974,10 +974,10 @@ NDefines.NMilitary.PLAN_PROVINCE_MEDIUM_VP_IMPORTANCE_FRONT = 1.0 -- 2.25 vanill
 NDefines.NMilitary.PLAN_PROVINCE_HIGH_VP_IMPORTANCE_FRONT = 1.0 -- 2.75 vanilla | Used when calculating the calue of fronts in the battle plan system
 NDefines.NMilitary.PLAN_SHARED_FRONT_PROV_IMPORTANCE_FACTOR = 1.0	-- 0.8 vanilla | If fornt orders share end provinces, they should each have a somewhat reduced prio due to it being shared.
 NDefines.NMilitary.PLAN_PORVINCE_PORT_BASE_IMPORTANCE = 1.0		-- Added importance for area defense province with a port
-NDefines.NMilitary.PLAN_PORVINCE_PORT_LEVEL_FACTOR = 0			-- Bonus factor for port level
+NDefines.NMilitary.PLAN_PORVINCE_PORT_LEVEL_FACTOR = 1.0			-- Bonus factor for port level
 NDefines.NMilitary.PLAN_PORVINCE_AIRFIELD_BASE_IMPORTANCE = 1.0	-- Added importance for area defense province with air field
-NDefines.NMilitary.PLAN_PORVINCE_AIRFIELD_POPULATED_FACTOR = 0	-- Bonus factor when an airfield has planes on it
-NDefines.NMilitary.PLAN_PORVINCE_AIRFIELD_LEVEL_FACTOR = 0		-- Bonus factor for airfield level
+NDefines.NMilitary.PLAN_PORVINCE_AIRFIELD_POPULATED_FACTOR = 1.0	-- Bonus factor when an airfield has planes on it
+NDefines.NMilitary.PLAN_PORVINCE_AIRFIELD_LEVEL_FACTOR = 1.0		-- Bonus factor for airfield level
 NDefines.NMilitary.PLAN_PORVINCE_RESISTANCE_BASE_IMPORTANCE = 1.0 -- Used when calculating the calue of defense area provinces for the battle plan system (factored by resistance level)
 NDefines.NMilitary.PLAN_PROVINCE_VP_PORT_FACTOR = 1.0
 
@@ -1029,7 +1029,7 @@ NDefines.NMilitary.PIERCING_THRESHOLD_DAMAGE_VALUES = {	-- 0 armor will always r
 	}
 
 NDefines.NCountry.POPULATION_YEARLY_GROWTH_BASE = 0               --Removed for game stability/reducing chance of desync
-NDefines.NIntel.NAVAL_SUPREMACY_INTEL_LOW = 0.0								-- we need more intel than this to get any supremacy - should hopefully make naval invasions not be blocked by intel nonesense????
+NDefines.NIntel.NAVAL_SUPREMACY_INTEL_LOW = 0								-- we need more intel than this to get any supremacy - should hopefully make naval invasions not be blocked by intel nonesense????
 NDefines.NGame.MESSAGE_TIMEOUT_DAYS = 16 --| less messages lying around at the top of your screen | CHANGE FOR CHECKSUMM
 NDefines.NCountry.COUNTRY_SCORE_MULTIPLIER = 0				-- Weight of the country score.
 NDefines.NCountry.ARMY_SCORE_MULTIPLIER = 0					-- Based on number of armies.
@@ -1044,15 +1044,15 @@ NDefines.NGame.AIR_LOG_TIMEOUT_HOURS = 24						-- Vanilla was 24
 NDefines.NResistance.GARRISON_LOG_MAX_MONTHS = 0
 
 NDefines.NDiplomacy.BASE_SEND_ATTACHE_COST = 0
-NDefines.NDiplomacy.BASE_SEND_ATTACHE_CP_COST = 0.0				-- Command Power sent attache usage cost
+NDefines.NDiplomacy.BASE_SEND_ATTACHE_CP_COST = 0				-- Command Power sent attache usage cost
 
 NDefines.NDiplomacy.TRUCE_PERIOD_AFTER_KICKING_FROM_FACTION = 0
 NDefines.NDiplomacy.NUM_DAYS_TO_ENABLE_KICKING_NEW_MEMBERS_OF_FACTION = 0
 NDefines.NDiplomacy.NUM_DAYS_TO_ENABLE_REINVITE_KICKED_NATIONS = 0
 NDefines.NDiplomacy.FRONT_IS_DANGEROUS = 0
 
-NDefines.NCountry.REINFORCEMENT_EQUIPMENT_DELIVERY_SPEED = 0.27 --0.3 vanilla
-NDefines.NCountry.REINFORCEMENT_MANPOWER_DELIVERY_SPEED = 9.0 --10 vanilla
+NDefines.NCountry.REINFORCEMENT_EQUIPMENT_DELIVERY_SPEED = 0.3 --0.3 vanilla
+NDefines.NCountry.REINFORCEMENT_MANPOWER_DELIVERY_SPEED = 10 --10 vanilla
 NDefines.NCountry.REINFORCEMENT_MANPOWER_CHUNK = 0.1
 
 NDefines.NCountry.ATTACHE_XP_SHARE = 0.05
@@ -1073,7 +1073,7 @@ NDefines.NProduction.MAX_MIL_FACTORIES_PER_LINE = 1000
 NDefines.NProduction.CONVERSION_SPEED_BONUS = -2
 
 NDefines.NBuildings.INFRASTRUCTURE_RESOURCE_BONUS = 0.1 -- multiplicative resource bonus for each level of (non damaged) infrastructure
-NDefines.NBuildings.SUPPLY_ROUTE_RESOURCE_BONUS = 0.0
+NDefines.NBuildings.SUPPLY_ROUTE_RESOURCE_BONUS = 0
 
 NDefines.NBuildings.ANTI_AIR_SUPERIORITY_MULT = 20.0	-- How much air superiority reduction to the enemy does our AA guns? Normally each building level = -1 reduction. With this multiplier.
 
@@ -1088,7 +1088,7 @@ NDefines.NMilitary.COMBAT_STACKING_PENALTY = -0.08               -- vanilla is -
 
 NDefines.NMilitary.RECON_SKILL_IMPACT = 8
 
-NDefines.NMilitary.RELIABILTY_RECOVERY = 0.0 -- Vanilla is 0.1, reduce because it's a broken in vanilla HOI4. Fix if ever fixed.
+NDefines.NMilitary.RELIABILTY_RECOVERY = 0 -- Vanilla is 0.1, reduce because it's a broken in vanilla HOI4. Fix if ever fixed.
 
 NDefines.NMilitary.SPEED_REINFORCEMENT_BONUS = 0.1
 
@@ -1105,3 +1105,7 @@ NDefines.NMilitary.LAND_COMBAT_STR_ARMOR_DEFLECTION_FACTOR = 1.0 -- damage reduc
 NDefines.NMilitary.BASE_NIGHT_ATTACK_PENALTY = 0 --vanilla -0.5
 
 NDefines.NMilitary.PEN_VS_AVERAGE = 1.0
+
+NDefines.NSupply.RAILWAY_CONVERSION_COOLDOWN = 0 -- railways will be put on cooldown when they are captured by enemy and will not be usable during the cooldown
+NDefines.NSupply.RAILWAY_CONVERSION_COOLDOWN_CORE = 0
+NDefines.NSupply.RAILWAY_CONVERSION_COOLDOWN_CIVILWAR = 0

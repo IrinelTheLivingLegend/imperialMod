@@ -384,37 +384,37 @@ on_actions = {
         }
     }
 
-    on_state_control_changed {
-        effect = {
-            if = {
-                limit = {
-                    from = {
-                        assia_axis_nations = yes
-                    }
-                    from.from = {
-                        assia_japan_islands = yes
-                    }
-                }
-                subtract_from_variable = {
-                    assia_axis_factory_output = 0.016
-                }
-            }
-            if = {
-                limit = {
-                    root = {
-                        assia_axis_nations = yes
-                    }
-                    from.from = {
-                        assia_japan_islands = yes
-                    }
-                }
-                add_to_variable = {
-                    assia_axis_factory_output = 0.016
-                }
-            }
+    # on_state_control_changed {
+    #     effect = {
+    #         if = {
+    #             limit = {
+    #                 from = {
+    #                     assia_axis_nations = yes
+    #                 }
+    #                 from.from = {
+    #                     assia_japan_islands = yes
+    #                 }
+    #             }
+    #             subtract_from_variable = {
+    #                 assia_axis_factory_output = 0.016
+    #             }
+    #         }
+    #         if = {
+    #             limit = {
+    #                 root = {
+    #                     assia_axis_nations = yes
+    #                 }
+    #                 from.from = {
+    #                     assia_japan_islands = yes
+    #                 }
+    #             }
+    #             add_to_variable = {
+    #                 assia_axis_factory_output = 0.016
+    #             }
+    #         }
             
-        }
-    }
+    #     }
+    # }
 
 
 }
