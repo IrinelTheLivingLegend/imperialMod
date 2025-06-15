@@ -37,7 +37,7 @@ NDefines.NProduction.CAPITULATE_STOCKPILES_RATIO = 0.75
 ----------------------------------
 NDefines.NTechnology.MAX_SUBTECHS = 4						-- Max number of sub technologies a technology can have.
 NDefines.NTechnology.BASE_RESEARCH_POINTS_SAVED = 100.0 --#base game 30 changed to 50 and then why not 56?
-NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 4.0		-- Base year ahead penalty
+NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 3.0		-- Base year ahead penalty
 NDefines.NTechnology.BASE_TECH_COST = 100					-- Base cost for a tech. multiplied with tech cost and ahead of time penalties
 ----------------------------------
 NDefines.NCountry.SPECIAL_FORCES_CAP_BASE = 0.0 -- prevent special forces exploit 
